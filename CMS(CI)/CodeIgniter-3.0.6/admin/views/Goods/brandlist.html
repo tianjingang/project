@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base href="<?php echo base_url('Public/Admin').'/' ?>" />
+<title>SHOP 管理中心 - 品牌管理 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="styles/general.css" rel="stylesheet" type="text/css" />
+<link href="styles/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script>
+  $(function(){
+      $(document).on('click',"#p_name",function(){   //几点几改（品牌民称）
+          var id = $(this).attr('name'); //获取id
+          var p_name = $(this).html();   //获取值
+          $(this).parent().html("<input style='width:100px;' type='text' value='"+p_name+"' id='"+id+"' name='p_name' /><span style='float:right'><a href='../data/brandlogo/1240802922410634065.gif' target='_brank'><img src='images/picflag.gif' width='16' height='16' border='0' alt='品牌LOGO'></a></span>");
+      });
+      $(document).on('blur',"input[name='p_name']",function(){
+        var id = $(this).attr('id');
+        var p_name = $(this).val();
+        $.post("<?php echo site_url('Goods/upp_name') ?>",{id:id,p_name:p_name},function(str){
+            if(str==1)
+            {
+                $("input[name='p_name']").parent().html("<span id='p_name' name='"+id+"'>"+p_name+"</span><span style='float:right'><a href='../data/brandlogo/1240802922410634065.gif' target='_brank'><img src='images/picflag.gif' width='16' height='16' border='0' alt='品牌LOGO'></a></span>");
+            }
+          });
+      });
+      $(document).on('click',"#p_order",function(){   //几点几改（品牌排序）
+          var id = $(this).attr('name');
+          var p_order = $(this).html();
+          $(this).parent().html("<input type='text' style='width:70px;' value='"+p_order+"' name='p_order' id='"+id+"' />");
+      });
+      $(document).on('blur',"input[name='p_order']",function(){
+          var id= $(this).attr('id');
+          var p_order = $(this).val();
+          $.get("<?php echo site_url('Goods/up_order') ?>",{id:id,p_order:p_order},function(str){
+            if(str==1){$("input[name='p_order']").parent().html("<span id='p_order' name='"+id+"'>"+p_order+"</span>")}
+          });
+      });
+      $(document).on('click',"#p_img",function(){   //修改是否显示
+          var id = $(this).attr('val');
+          var img = $(this);
+          $.post("<?php echo site_url('Goods/upshow') ?>",{id:id},function(str){
+            if(str==1){img.attr('src',"images/no.gif")}
+              else{img.attr('src','images/yes.gif')}
+          });
+      }); 
+      $(document).on("click","#del",function(){     //移除单个品牌
+          var id = $(this).attr('val');
+          if(confirm("您确定要移除吗？"))
+          {
+            $.post("<?php echo site_url('Goods/delpin') ?>",{id:id},function(str){
+              var path = "<?php echo site_url('Goods/goodspinlist') ?>";
+              if(str==1){location.href=path;}
+            });
+          }
+      });
+      $("#search").click(function(){      //搜索
+        var val = $(this).prev().val();
+        $.post("<?php echo site_url('Goods/search') ?>",{val:val},function(data){
+            var str="<tr><td>品牌名称</td><td>品牌网址</td><td>品牌描述</td><td>排序</td><td>是否显示</td><td>操作</td></tr>";
+            for(var i=0;i<data.length;i++)
+            {
+                str = str+"<tr><td class='first-cell' style='background-color: rgb(255, 255, 255);''><span id='p_name' title='点击修改内容'' name='"+data[i].p_id+"' >"+data[i].p_name+"</span><span style='float:right'><a href='../data/brandlogo/1240802922410634065.gif' target='_brank'><img src='images/picflag.gif' width='16' height='16' border='0' alt='品牌LOGO'></a></span></td><td style='background-color: rgb(255, 255, 255);'><a href='http://www.motorola.com.cn' target='_brank'>"+data[i].p_web+"</a></td><td align='left' style='background-color: rgb(255, 255, 255);'>"+data[i].p_content+"</td><td align='right' style='background-color: rgb(255, 255, 255);'><span id='p_order' name="+data[i].p_id+">"+data[i].p_order+"</span></td><td align='center' style='background-color: rgb(255, 255, 255);'>";
+                  if(data[i].p_show==1){
+                      str = str+"<img src='images/yes.gif' id='p_img'  val="+data[i].p_id+"</td>";
+                  }
+                  else
+                  {
+                      str = str+"<img src='images/no.gif' id='p_img' val="+data[i].p_id+"</td>";
+                  }
+                  str = str+"<td align='center' style='background-color: rgb(255, 255, 255);'><a href='<?php echo site_url('Goods/upgoodspin?id=').'"+data[i].p_id+"'?>' title='编辑'>编辑</a> |<a href='javascript:;'  id='del'  val='"+data[i].p_id+"' title='编辑'>移除</a></td></tr>";
+            }
+            $("#trs").html(str);  //把所有搜索到的内容显示出来
+        },'json');
+      });    
+  });
+</script>
+</head>
+<body>
+<h1>
+<span class="action-span"><a href="<?php echo site_url('Goods/addgoodspin') ?>">添加品牌</a></span>
+<span class="action-span1"><a href="index.php?act=main">ECSHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 商品品牌 </span>
+<div style="clear:both"></div>
+</h1>
+<div class="form-div">
+  <!-- <form action="javascript:search_brand()" name="searchForm"> -->
+    <img src="images/icon_search.gif" width="26" height="22" border="0" alt="SEARCH">
+     <input type="text" name="brand_name" size="15"><input type="submit" value=" 搜索 " id="search" class="button">
+  <!-- </form> -->
+</div>
+<form method="post" action="" name="listForm">
+<div class="list-div" id="listDiv">
+  <table cellpadding="3" cellspacing="1">
+    <tbody id="trs">
+		<tr>
+			<td>品牌名称</td>
+			<td>品牌网址</td>
+			<td>品牌描述</td>
+			<td>排序</td>
+			<td>是否显示</td>
+			<td>操作</td>
+		</tr>
+		<!--start，这些都是显示代码，没有格式化，开发时会删除 -->
+    <?php  foreach($list as $key=>$val){ ?>
+          <tr>
+        <td class="first-cell" style="background-color: rgb(255, 255, 255);">
+        <span id="p_name" title="点击修改内容" name="<?php echo $val['p_id'] ?>" ><?php echo $val['p_name'] ?></span>
+       <span style="float:right"><a href="../data/brandlogo/1240802922410634065.gif" target="_brank"><img src="images/picflag.gif" width="16" height="16" border="0" alt="品牌LOGO"></a></span>
+        </td>
+        <td style="background-color: rgb(255, 255, 255);"><a href="http://www.motorola.com.cn" target="_brank"><?php echo $val['p_web'] ?></a></td>
+        <td align="left" style="background-color: rgb(255, 255, 255);"><?php echo $val['p_content'] ?></td>
+        <td align="right" style="background-color: rgb(255, 255, 255);"><span id="p_order" name="<?php echo $val['p_id'] ?>"><?php echo $val['p_order'] ?></span></td>
+        <td align="center" style="background-color: rgb(255, 255, 255);">
+        <?php if($val['p_show']==1){ ?>
+        <img src="images/yes.gif" id="p_img"  val="<?php echo $val['p_id'] ?>">
+        <?php }else{ ?>
+        <img src="images/no.gif" id="p_img" val="<?php echo $val['p_id'] ?>">
+        <?php } ?>
+        </td>
+        <td align="center" style="background-color: rgb(255, 255, 255);">
+          <a href="<?php echo site_url('Goods/upgoodspin?id=').$val['p_id']?>" title="编辑">编辑</a> |
+          <a href="javascript:;"  id="del"  val="<?php echo $val['p_id'] ?>"title="编辑">移除</a> 
+        </td>
+      </tr>
+    <?php } ?>
+	<!--end，这些都是显示代码，没有格式化，开发时会删除 -->
+    <tr>
+		<td align="right" nowrap="true" colspan="6">
+           <!--   <div id="turn-page">
+			总计  <span id="totalRecords">11</span>
+        个记录分为 <span id="totalPages">2</span>
+        页当前第 <span id="pageCurrent">1</span>
+        页，每页 <input type="text" size="3" id="pageSize" value="10" onkeypress="return listTable.changePageSize(event)">
+        <span id="page-link">
+         <a href="javascript:listTable.gotoPageFirst()">第一页</a>
+         <a href="javascript:listTable.gotoPagePrev()">上一页</a>
+         <a href="javascript:listTable.gotoPageNext()">下一页</a>
+         <a href="javascript:listTable.gotoPageLast()">最末页</a> 
+          <select id="gotoPage" onchange="listTable.gotoPage(this.value)">
+            <option value="1">1</option><option value="2">2</option>          </select>
+        </span>
+      </div>-->
+         <?php 
+            echo "当前第<span style='color:Red'><big>".$page."</big></span>页,总共<span style='color:Red'><small>".$page_sum."</small></span>页".$pages;
+          ?>
+      </td>
+    </tr>
+  </tbody></table>
+<!-- end brand list -->
+</div>
+</form>
+<div id="footer">
+	版权所有 &copy; 2006-2013 传智播客 - PHP培训 - </div>
+</div>
+</body>
+</html>

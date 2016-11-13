@@ -1,0 +1,85 @@
+<!-- $Id: category_move.htm 14216 2008-03-10 02:27:21Z testyang $ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>ECSHOP 管理中心 - 转移商品 </title>
+<meta name="robots" content="noindex, nofollow">
+<base href="<?php echo base_url('Public/Admin').'/' ?>" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="styles/general.css" rel="stylesheet" type="text/css">
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script>
+  $(function(){
+      $("select[name='sort']").change(function(){
+          alert('此分类不能切换！');
+      });
+  });
+</script>
+</head>
+<body>
+<h1>
+<span class="action-span"><a href="<?php echo site_url('Goods/checkaddcat') ?>">商品分类</a></span>
+<span class="action-span1"><a href="http://www.php.com/RBAC/practice/ECSHOP/upload/admin/index.php?act=main">ECSHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 转移商品 </span>
+<div style="clear:both"></div>
+</h1>
+<div class="main-div">
+<form action="<?php echo site_url('Goodscat/zhuan') ?>" method="post" name="theForm">
+<table width="100%">
+  <tbody><tr>
+    <td>
+      <div style="font-weight:bold"><img src="images/notice.gif" width="16" height="16" border="0"> 什么是转移商品分类?</div>
+       <ul>
+         <li>在添加商品或者在商品管理中,如果需要对商品的分类进行变更,那么你可以通过此功能,正确管理你的商品分类。</li>
+       </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <strong>从此分类</strong>&nbsp;&nbsp;
+      <select name="sort">
+                <option value="<?php echo $arr['s_id'] ?>" selected="selected"><?php echo $arr['s_name'] ?></option>
+       </select>&nbsp;&nbsp;
+      <strong>转移到</strong>
+       <select name="sort1">
+       <option value="">请选择...</option>
+        <?php foreach($rs as $key=>$val){
+          if($val['s_id']==$id){  ?>
+                <option value="<?php echo $val['s_id'] ?>" selected="selected"><?php echo $val['html'].$val['s_name'] ?></option>
+          <?php }else{ ?>
+                <option value="<?php echo $val['s_id'] ?>"><?php echo $val['html'].$val['s_name'] ?></option>
+        <?php } } ?>
+      </select>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input name="move_cat" value="开始转移" class="button" type="submit">
+      <input value=" 重置 " class="button" type="reset">
+      <input name="id" value="<?php echo $id ?>" type="hidden">
+    </td>
+  </tr>
+</tbody></table>
+</form>
+</div>
+<div id="footer">
+版权所有 © 2005-2012 上海商派网络科技有限公司，并保留所有权利。</div>
+<!-- 新订单提示信息 -->
+<div id="popMsg">
+  <table width="100%" bgcolor="#cfdef4" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td style="color: #0f2c8c" width="30" height="24"></td>
+    <td style="font-weight: normal; color: #1f336b; padding-top: 4px;padding-left: 4px" valign="center" width="100%"> 新订单通知</td>
+    <td style="padding-top: 2px;padding-right:2px" valign="center" width="19" align="right"><span title="关闭" style="cursor: hand;cursor:pointer;color:red;font-size:12px;font-weight:bold;margin-right:4px;" onclick="Message.close()">×</span><!-- <img title=关闭 style="cursor: hand" onclick=closediv() hspace=3 src="msgclose.jpg"> --></td>
+  </tr>
+  <tr>
+    <td style="padding-right: 1px; padding-bottom: 1px" colspan="3" height="70">
+    <div id="popMsgContent">
+      <p>您有 <strong style="color:#ff0000" id="spanNewOrder">1</strong> 个新订单以及       <strong style="color:#ff0000" id="spanNewPaid">0</strong> 个新付款的订单</p>
+      <p style="word-break:break-all" align="center"><a href="http://www.php.com/RBAC/practice/ECSHOP/upload/admin/order.php?act=list"><span style="color:#ff0000">点击查看新订单</span></a></p>
+    </div>
+    </td>
+  </tr>
+  </tbody></table>
+</div>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://active.macromedia.com/flash2/cabs/swflash.cab#version=4,0,0,0" id="msgBeep" width="1" height="1">
+  <param name="movie" value="images/online.swf">
+  <param name="quality" value="high">
+ <!--  <embed src="category_data/online.swf" name="msgBeep" id="msgBeep" quality="high" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?p1_prod_version=shockwaveflash" width="0" height="0">
+ </object> -->
+</body></html>

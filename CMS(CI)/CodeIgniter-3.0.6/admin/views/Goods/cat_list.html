@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SHOP 管理中心 - 商品分类 </title>
+<base href="<?php echo base_url('Public/Admin').'/' ?>" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="styles/general.css" rel="stylesheet" type="text/css" />
+<link href="styles/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script>
+  $(function(){
+      $("tr[pid!=0]").hide();
+      $(".dianji").toggle(function(){
+          $(this).attr('src','http://www.php.com/RBAC/practice/ECSHOP/upload/admin/images/menu_minus.gif'); 
+          var id = $(this).attr('id');
+          $('tr[pid='+id+']').show();             //点击递归效果点击打开点击合上
+      },function(){
+          $(this).attr('src','http://www.php.com/RBAC/practice/ECSHOP/upload/admin/images/menu_plus.gif');
+          var id = $(this).attr('id');
+          $('tr[pid='+id+']').hide();
+      });
+      $(document).on("click","#navshow",function(){ //几点几改  （修改商品分类的导航栏）
+          var id = $(this).parent().attr('name');     //获取点击时的id
+          var val = $(this).attr('name');
+          if(val==1)
+          {
+            $(this).attr('src','images/no.gif');$(this).attr('name',0);
+          }
+          else
+          {
+            $(this).attr('src','images/yes.gif');$(this).attr('name',1);
+          }
+          // $.post('<?php echo site_url("Goodscat/goodssortnav") ?>',{id:id,s_navshow:val},function(str){       //ajax传值进行修改状态码
+          // });
+      });
+      $(document).on("click","#s_show",function(){  //几点几改（是否显示）
+          var id = $(this).parent().attr('name');     //获取点击时的id
+          var val = $(this).attr('name');
+           if(val==1)
+           {
+              $(this).attr('src','images/no.gif');$(this).attr('name',0);
+           }
+           else
+           {
+              $(this).attr('src','images/yes.gif');$(this).attr('name',1);
+           }
+           // $.post('<?php echo site_url("Goodscat/goodssortshow") ?>',{id:id,s_show:val},function(str){         //ajax传值进行修改状态码
+          // });
+      });
+      $(document).on("click","#s_order",function(){
+        var val = $(this).html();
+        var id = $(this).parent().attr('name');
+        $(this).parent().html("<input type='text' style='width:50px;' name='s_order' id='"+id+"' value='"+val+"'/>");
+      });
+      $(document).on("blur","input[name='s_order']",function(){
+        var s_order = $(this).val();
+         var id = $(this).attr('id');
+        var reg = /^[0-9]{1,}$/;        //定义整数正则表达式
+        if(reg.test(s_order))
+        {
+            $.post("<?php echo site_url('Goodscat/goodsorderup') ?>",{s_order:s_order,id:id},function(str){
+                if(str==1){$("input[name='s_order']").parent().html("<span id='s_order' name='"+id+"'>"+s_order+"</span>");}
+            });
+        }
+        else{alert('不合法，必须是整数！');}  
+      });
+      $(document).on("click","#del",function(){
+        var id = $(this).attr('val');
+        var s_name = $(this).attr('name');
+        $.post("<?php echo site_url('Goodscat/delsort') ?>",{id:id},function(msg){
+             if(msg==0)
+             {
+                alert(s_name+" 不是末级分类或者此分类下还存在有商品，您不能删除！");
+             }
+             else
+             {
+                if(confirm("您确定要移除吗？"))
+                {
+                  var path ="<?php echo site_url('Goods/goodscat') ?>";
+                  location.href=path;
+                }
+             }
+        });
+      });
+      $(document).on('click',"#zhuan",function(){
+             var id = $(this).attr('val');
+             $.post("<?php echo site_url('Goodscat/zhuanyi') ?>",{id:id},function(str){
+                 if(str==0){alert('它是顶级分类，不能转移！')}
+                 else
+                 {
+                    location.href='<?php echo site_url("Goodscat/zhuangoods") ?>?id='+id;
+                 }
+             });
+      });
+  });
+</script>
+</head>
+<body>
+<h1>
+<span class="action-span"><a href="<?php echo site_url('Goods/addgoodscat') ?>">添加分类</a></span>
+<span class="action-span1"><a href="index.php?act=main">ECSHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 商品分类 </span>
+<div style="clear:both"></div>
+</h1>
+<form method="post" action="" name="listForm">
+<!-- start ad position list -->
+	<div class="list-div" id="listDiv">
+		<table width="100%" cellspacing="1" cellpadding="2" id="list-table">
+			<tbody>
+				<tr pid="0">
+					<th>分类名称</th>
+					<th>商品数量</th>
+					<th>数量单位</th>
+					<th>导航栏</th>
+					<th>是否显示</th>
+					<th>排序</th>
+					<th>操作</th>
+          </tr>
+        <?php foreach($list as $key=>$val){ ?>
+				<tr align="center" pid="<?php echo $val['parent_id'] ?>">
+					<td align="left" class="first-cell">
+						<img id="<?php echo $val['s_id'] ?>" border="0" height="9" width="9" class="dianji" style="margin-left:0em" src="http://www.php.com/RBAC/practice/ECSHOP/upload/admin/images/menu_plus.gif">
+						<span><a href="goods.php?act=list&amp;cat_id=1"><?php echo $val['html'].$val['s_name'] ?></a></span>
+					 </td>
+					<td width="10%"><?php echo $val['s_num'] ?></td>
+					<td width="10%"><span onclick="listTable.edit(this, 'edit_measure_unit', 1)" title="点击修改内容" style=""><?php echo $val['s_unit'] ?></span></td>
+          <?php if($val['s_navshow']==1){ ?>
+            <td width="10%" name="<?php echo $val['s_id'] ?>"><img src="images/yes.gif" id="navshow" name="<?php echo $val['s_navshow'] ?>"></td>
+           <?php }else{ ?>
+            <td width="10%" name="<?php echo $val['s_id'] ?>"><img src="images/no.gif" id="navshow" name="<?php echo $val['s_navshow'] ?>"></td>
+          <?php } ?>
+          <?php if($val['s_show']==1){ ?>
+            <td width="10%" name="<?php echo $val['s_id'] ?>"><img src="images/yes.gif" id="s_show" name="<?php echo $val['s_show'] ?>"></td>
+         <?php }else{ ?>
+            <td width="10%" name="<?php echo $val['s_id'] ?>"><img src="images/no.gif" id="s_show" name="<?php echo $val['s_show'] ?>"></td>
+          <?php } ?>
+					<td width="10%" align="right" name="<?php echo $val['s_id'] ?>"><span  title="点击修改内容" id="s_order"><?php echo $val['s_order'] ?></span></td>
+					<td width="24%" align="center">
+						<a href="javascript:;" id="zhuan" val="<?php echo $val['s_id'] ?>">转移商品</a> |
+						<a href="/upcat/id/{$val.s_id}">编辑</a> |
+						<a href="javascript:;" id="del" val="<?php echo $val['s_id'] ?>" name="php{$val.s_name}" title="移除">移除</a>
+					</td>
+				</tr>
+        <?php } ?>
+	</tbody>
+  </table>
+</div>
+</form>
+  </table>
+</div>
+</form>
+<div id="footer">
+	版权所有 &copy; 2006-2013 传智播客 - PHP培训 - </div>
+</div>
+</body>
+</html>

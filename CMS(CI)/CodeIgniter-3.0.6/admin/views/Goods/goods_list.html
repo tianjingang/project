@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<base href="<?php echo base_url('Public/Admin').'/' ?>" />
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link href="styles/general.css" rel="stylesheet" type="text/css" />
+	<link href="styles/main.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script>
+	$(function(){
+		$(document).on("click","#number",function(){         	 		//全选按钮
+			var numberson = $("input[name='id[]']");
+			for(var i=0;i<numberson.length;i++)
+			{
+				if($(this).attr('checked'))
+				{
+					numberson.eq(i).attr('checked',true);
+				}
+				else
+				{
+					numberson.eq(i).attr('checked',false);
+				}
+			}
+		});
+		$(document).on("click","#up",function(){ 				//上架下架切换功能
+			var g_up = $(this).parent().attr('id');
+			var id = $(this).parent().attr('name');    //获取点击时的id
+			var up = $(this);				
+				$.ajax({
+					type:'post',
+					url:'<?php echo site_url("Goods/updown") ?>',
+					data:{
+						id:id
+					},
+					success:function(str)
+					{
+						if(str==0)
+						{
+							up.attr('src','images/no.gif');
+						}
+						else
+						{
+							up.attr('src','images/yes.gif');
+						}
+					}
+				});
+		});
+		$(document).on("click","#jing",function(){ 				//切换精品功能
+			var g_jing = $(this).parent().attr('id');			//获取点击时的id
+			var id = $(this).parent().attr('name');
+			var jing = $(this);
+				$.ajax({
+					type:'post',
+					url:'<?php echo site_url("Goods/jingpin") ?>',
+					data:{
+						id:id
+					},
+					success:function(str)
+					{
+						if(str==1)
+						{
+							jing.attr('src','images/yes.gif');
+						}
+						else
+						{
+							jing.attr('src','images/no.gif');
+						}
+					}
+				});
+		});
+		$(document).on("click","#new",function(){ 				//切换新品功能
+			var g_new = $(this).parent().attr('id');			//获取点击时的id
+			var id = $(this).parent().attr('name');
+			var news = $(this);
+				$.ajax({
+					type:'post',
+					url:'<?php echo site_url("Goods/newpin") ?>',
+					data:{
+						id:id
+					},
+					success:function(str)
+					{
+						if(str==1)
+						{
+							news.attr('src','images/yes.gif');
+						}
+						else
+						{
+							news.attr('src','images/no.gif');
+						}
+					}
+				});
+		});
+		$(document).on("click","#hotcake",function(){ 				//切换热销功能
+			var g_hotcake = $(this).parent().attr('id');			//获取点击时的id
+			var id = $(this).parent().attr('name');
+			var hots = $(this);
+				$.ajax({
+					type:'post',
+					url:'<?php echo site_url("Goods/hotcake") ?>',
+					data:{
+						id:id
+					},
+					success:function(str)
+					{
+						if(str==1)
+						{
+							hots.attr('src','images/yes.gif');
+						}
+						else
+						{
+							hots.attr('src','images/no.gif');
+						}
+					}
+				});
+		});
+		$(document).on("click","#g_name",function(){     	//几点几改（商品名称）
+			var g_name = $(this).html();
+			var id = $(this).attr('name');   	//获取点击时的id
+			//点击后把它变为文本框
+			$(this).parent().html("<input type='text' value='"+g_name+"' id='"+id+"'  name='g_name' />"); 
+		});
+		$(document).on("blur","input[name='g_name']",function(){    //对于变后的文本框实行失去焦点事件
+	 		var g_name = $(this).val();		//获取文本框的值
+	 		var id = $(this).attr('id');   	//获取点击时的id
+	 		$.ajax({
+					type:'post',
+					url:'<?php echo site_url("Goods/goodsnameup") ?>',		//跳转页面修改商品名称
+					data:{
+						g_name:g_name,
+						id:id
+					},
+					success:function(str)
+					{
+						if(str==1)
+						{
+							$("input[name='g_name']").parent().html("<span id='g_name' name='"+id+"'>"+g_name+"</span>");
+						}
+					}
+				});
+		});
+		$(document).on("click","#g_num",function(){			//几点几改（商品货号)
+			var g_num = $(this).html();       //获取点击时的值
+			var id = $(this).attr('name');		//获取点击时的id
+			$(this).parent().html("<input type='text'  value='"+g_num+"' name='g_num' id='"+id+"'/>");   //点击后变为文本框
+		});
+		$(document).on("blur","input[name='g_num']",function(){
+			var g_num = $(this).val();
+			var id = $(this).attr('id');
+			$.ajax({
+					type:'post',
+					url:'<?php echo site_url("Goods/goodsnumup") ?>',
+					data:{
+						id:id,
+						g_num:g_num
+					},
+					success:function(str)
+					{
+						if(str==0)		//查询出来相同货号就不能修改
+						{
+							alert('不能修改成相同的货号');
+						}
+						else
+						{
+							$("input[name='g_num']").parent().html("<span id='g_num' name='"+id+"'>"+g_num+"</span>");
+						}
+					}
+			    });
+		});
+		$(document).on("click","#g_selfprice",function(){		//几点几改    	(商品价格）
+			var id = $(this).attr('name');
+			var g_selfprice = $(this).html();	//点击时获取值
+			$(this).parent().html("<input style='width:80px;' type='text' id='"+id+"'value='"+g_selfprice+"' name='g_selfprice'/>");
+		});
+		$(document).on("blur","input[name='g_selfprice']",function(){		//几点几改  （商品价格）
+			var id = $(this).attr('id');			//失去焦点是获取相应的id
+			var g_selfprice = $(this).val();
+			var reg = /^[0-9]{1,}(\.)[0-9]{2}$/;    //必须是两位小数
+			if(reg.test(g_selfprice))
+			{
+				$.ajax({
+					type:'post',
+					url:'<?php echo site_url("Goods/goodsselfprice") ?>',
+					data:{
+						id:id,
+						g_selfprice:g_selfprice
+					},
+					success:function(data)
+					{
+						if(data==1)
+						{
+							$("input[name='g_selfprice']").parent().html("<span id='g_selfprice' name='"+id+"'>"+g_selfprice+"</span>");
+						}
+					}
+				});
+			}else
+			{
+				alert("不合法,必须是两位小数");
+			}
+		});
+		$(document).on("click","#g_kucun",function(){ 					//几点几改  （商品库存）
+			var id = $(this).attr('name');
+			var g_kucun = $(this).html();
+			$(this).parent().html("<input style='width:80px;' type='text' id='"+id+"'value='"+g_kucun+"' name='g_kucun'/>");
+		});
+		$(document).on("blur","input[name='g_kucun']",function(){
+			var id = $(this).attr('id');			//失去焦点是获取相应的id
+			var g_kucun = $(this).val();
+			var reg = /^[0-9]{1,}$/;
+			if(reg.test(g_kucun))
+			{
+				$.post("<?php echo site_url('Goods/goodskucunup') ?>",{id:id,g_kucun:g_kucun},function(data)     //ajax  几点几改  （商品库存）
+				{
+					if(data==1)
+					{
+						$("input[name='g_kucun']").parent().html("<span id='g_kucun' name='"+id+"'>"+g_kucun+"</span>");
+					}
+				});
+			}
+			else
+			{
+				alert('必须是整型');
+			}
+		});
+		$(document).on("click","#rubbish",function(){
+			var id = $(this).attr('name');
+			if(confirm("您确定要放入回收站吗？"))   //判断是否真的放回回收站
+			{
+				$.post("<?php echo site_url('Goods/rubbishup') ?>",{id:id},function(obj){
+					var path = '<?php echo site_url("Goods/goodslist") ?>';
+					if(obj==1)
+					{
+						location.href=path;   //放入回收站返回原页面
+					}
+				});
+			}
+		});
+		$("#search").click(function(){   //搜索
+			var val = $(this).prev().val();
+			$.post("<?php echo site_url('Goodscat/search') ?>",{val:val},function(data){
+				var str="<tr><td><input type='checkbox' id='number'>编号</td><td>商品名称</td><td>货号</td><td>价格</td><td>上架</td><td>精品</td><td>新品</td><td>热销</td><td>库存</td><td>操作</td></tr>";
+				for(var i=0;i<data.length;i++)
+				{
+					str = str+"<tr><td><input type='checkbox' name='id[]'>"+data[i].id+"</td><td class='first-cell'><span id='g_name' name="+data[i].id+" >"+data[i].g_name+"</span></td><td><span id='g_num' name="+data[i].id+">"+data[i].g_num+"</span></td><td align='right'><span id='g_selfprice' name="+data[i].id+">"+data[i].g_selfprice+"</span></td>";
+					if(data[i].g_up==1)
+					{
+						str = str+"<td align='center' id="+data[i].g_up+" name="+data[i].id+"><img src='images/yes.gif' id='up'></td>";
+					}
+					else
+					{
+						str = str+"<td align='center' id="+data[i].g_up+" name="+data[i].id+" ><img src='images/no.gif' id='up'></td>";
+					}
+					if(data[i].g_jing==1)
+					{
+						str = str+"<td align='center' id="+data[i].g_jing+" name="+data[i].id+"><img src='images/yes.gif' id='jing' ></td>";
+					}
+					else
+					{
+						str = str+"<td align='center' id="+data[i].g_jing+" name="+data[i].id+"><img src='images/no.gif' id='jing'></td>";
+					}
+					if(data[i].g_new==1)
+					{
+						str = str+"<td align='center' id="+data[i].g_new+" name="+data[i].id+"><img src='images/yes.gif' id='new'></td>";
+					}
+					else
+					{
+						str = str+"<td align='center' id="+data[i].g_new+" name="+data[i].id+"><img src='images/no.gif' id='new'></td>";
+					}
+					if(data[i].g_hotcake==1)
+					{
+						str = str+"<td align='center' id="+data[i].g_hotcake+" name="+data[i].id+"><img src='images/yes.gif' id='hotcake'></td>";
+					}
+					else
+					{
+						str = str+"<td align='center' id="+data[i].g_hotcake+" name="+data[i].id+"><img src='images/no.gif' id='hotcake'></td>";
+					}
+					str = str+"<td align='right'><span id='g_kucun' name="+data[i].id+">"+data[i].g_kucun+"</span></td><td align='center'><a href='../goods.php?id=32' target='_blank' title='查看'><img src='images/icon_view.gif' width='16' height='16' border='0'></a><a href='goods.php?act=edit&amp;goods_id=32' title='编辑'><img src='images/icon_edit.gif' width='16' height='16' border='0'></a><a href='goods.php?act=copy&amp;goods_id=32' title='复制'><img src='images/icon_copy.gif' width='16' height='16' border='0'></a><a href='javascript:;' id='rubbish' title='回收站' name="+data[i].id+"><img src='images/icon_trash.gif' width='16' height='16' border='0'></a><a href='goods.php?act=product_list&amp;goods_id=32' title='货品列表'><img src='images/icon_docs.gif' width='16' height='16' border='0'></a></td></tr>";
+				}
+				$("#trs").html(str);
+			},'json');
+		});
+		$("input[name='pagenum']").blur(function(){
+			var val = $(this).val();
+			alert(val);
+		});
+	});
+</script>
+</head>
+<body>
+<h1>
+	<span class="action-span"><a href="<?php echo site_url('Goods/addshow') ?>">添加新商品</a></span>
+	<span class="action-span1"><a href="index.php?act=main">ECSHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 商品列表 </span>
+	<div style="clear:both"></div>
+</h1>
+<div class="form-div">
+ <!--  <form action="" name="searchForm"> -->
+    <img src="images/icon_search.gif" width="26" height="22" border="0" alt="SEARCH">
+		关键字 <input type="text" name="keyword" size="15">
+		<input type="submit" value=" 搜索 " id="search" class="button">
+<!--   </form> -->
+</div>
+<form method="post" action="" name="listForm" onsubmit="return confirmSubmit(this)">
+	<div class="list-div" id="listDiv">
+		<table cellpadding="3" cellspacing="1" id="list" >
+			<tbody id="trs">
+				<tr>
+					<td><input type="checkbox" id="number">编号</td>
+					<td>商品名称</td>
+					<td>货号</td>
+					<td>价格</td>
+					<td>上架</td>
+					<td>精品</td>
+					<td>新品</td>
+					<td>热销</td>
+					<td>库存</td>
+					<td>操作</td>
+				</tr>
+				<?php foreach($list as $key=>$val){ ?>
+				<tr>
+					<td><input type="checkbox" name="id[]"><?php echo $val['id'] ?></td>
+					<td class="first-cell"><span id="g_name" name="<?php echo $val['id'] ?>" ><?php echo $val['g_name'] ?></span></td>
+					<td><span id="g_num" name="<?php echo $val['id'] ?>"><?php echo $val['g_num'] ?></span></td>
+					<td align="right"><span id="g_selfprice" name="<?php echo $val['id'] ?>"><?php echo $val['g_selfprice'] ?></span></td>
+					<?php if($val['g_up']==1){ ?>
+						<td align="center" id="<?php echo $val['g_up'] ?>" name="<?php echo $val['id'] ?>"><img src="images/yes.gif" id="up" ></td>
+					<?php }else{ ?>
+						<td align="center" id="<?php echo $val['g_up'] ?>" name="<?php echo $val['id'] ?>" ><img src="images/no.gif" id="up"></td>
+					<?php } ?>
+					<?php if($val['g_jing']==1){ ?>
+						<td align="center" id="<?php echo $val['g_jing'] ?>" name="<?php echo $val['id'] ?>"><img src="images/yes.gif" id="jing" ></td>
+					<?php }else{ ?>
+						<td align="center" id="<?php echo $val['g_jing'] ?>" name="<?php echo $val['id'] ?>"><img src="images/no.gif" id="jing"></td>
+					<?php } ?>
+					<?php if($val['g_new']==1){ ?>
+						<td align="center" id="<?php echo $val['g_new'] ?>" name="<?php echo $val['id'] ?>"><img src="images/yes.gif" id="new"></td>
+					<?php }else{ ?>
+						<td align="center" id="<?php echo $val['g_new'] ?>" name="<?php echo $val['id'] ?>"><img src="images/no.gif" id="new"></td>
+					<?php } ?>
+					<?php if($val['g_hotcake']==1){ ?>
+						<td align="center" id="<?php echo $val['g_hotcake'] ?>" name="<?php echo $val['id'] ?>"><img src="images/yes.gif" id="hotcake"></td>
+					<?php }else{ ?>
+						<td align="center" id="<?php echo $val['g_hotcake'] ?>" name="<?php echo $val['id'] ?>"><img src="images/no.gif" id='hotcake'></td>
+					<?php } ?>
+						<td align="right"><span id="g_kucun" name="<?php echo $val['id'] ?>"><?php echo $val['g_kucun'] ?></span></td>
+					<td align="center">
+						<a href="../goods.php?id=32" target="_blank" title="查看"><img src="images/icon_view.gif" width="16" height="16" border="0"></a>
+						<a href="goods.php?act=edit&amp;goods_id=32" title="编辑"><img src="images/icon_edit.gif" width="16" height="16" border="0"></a>
+						<a href="goods.php?act=copy&amp;goods_id=32" title="复制"><img src="images/icon_copy.gif" width="16" height="16" border="0"></a>
+						<a href="javascript:;" id="rubbish" title="回收站" name="<?php echo $val['id'] ?>"><img src="images/icon_trash.gif" width="16" height="16" border="0"></a>
+						<a href="goods.php?act=product_list&amp;goods_id=32" title="货品列表"><img src="images/icon_docs.gif" width="16" height="16" border="0"></a>          
+					</td>
+				</tr>
+				<?php } ?>
+  </tbody>
+ </table>
+	<!-- 分页 -->
+	<table id="page-table" cellspacing="0">
+		<tbody>
+		 	<tr>
+		 		<td align="right" nowrap="true" style="background-color: rgb(255, 255, 255);">
+		 			<div id="turn-page">
+		 				<!-- 总计  <span id="totalRecords"></span>个记录分为 <span id="totalPages"></span>页当前第 <span id="pageCurrent"></span>
+		 				页，每页 <input type="text" size="3" name="pagenum" id="pageSize">条
+		 				<span id="page-link">
+		 					<a href="javascript:;" >第一页</a>
+		 					<a href="javascript:;" >上一页</a>
+		 					<a href="javascript:;" >下一页</a>
+		 					<a href="javascript:;" >最末页</a>
+		 					<select id="gotoPage" onchange="listTable.gotoPage(this.value)">
+		 					<option value="1">1</option><option value="2">2</option></select>
+		 				</span> -->总共<span style="color:Red"><small><?php echo $page_sum ?></small></span> 页 当前第<span style="color:Red"><big><?php echo $pages ?></big></span>页<?php echo $page ?>
+		 			</div>
+		 		</td>
+		 	</tr>
+		 </tbody> 
+	</table>
+</div>
+<div>
+</div>
+</form>
+<div id="footer">
+	版权所有 &copy; 2006-2013 传智播客 - PHP培训 - 
+</div>
+</body>
+</html>

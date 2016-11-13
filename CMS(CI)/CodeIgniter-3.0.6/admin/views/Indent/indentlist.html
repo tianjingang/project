@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>ECSHOP 管理中心 - 订单列表 </title>
+<meta name="robots" content="noindex, nofollow">
+<base href="<?php echo base_url('Public/Admin').'/' ?>" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="styles/general.css" rel="stylesheet" type="text/css">
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/transport.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body style="cursor: auto;">
+<h1>
+<span class="action-span">
+<!-- <a href="http://www.php.com/RBAC/practice/ECSHOP/upload/admin/order.php?act=order_query">订单查询</a> -->
+</span>
+<span class="action-span1"><a href="http://www.php.com/RBAC/practice/ECSHOP/upload/admin/index.php?act=main">ECSHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 订单列表 </span>
+<div style="clear:both"></div>
+</h1>
+<script type="text/javascript" src="js/utils.js"></script><script type="text/javascript" src="js/listtable.js"></script><!-- 订单搜索 -->
+<div class="form-div">
+  <form action="javascript:searchOrder()" name="searchForm">
+    <img src="images/icon_search.gif" alt="SEARCH" border="0" height="22" width="26">
+    收货人<input name="d_num" id="order_sn" size="15" type="text">
+    <!-- 收货人<input name="consignee" id="consignee" size="15" type="text"> -->
+    <!-- 订单状态    <select name="status" id="status">
+      <option value="-1">请选择...</option>
+      <option value="0" selected="selected">待确认</option>
+      <option value="100">待付款</option>
+      <option value="6">部分发货</option></select> -->
+    <input value=" 搜索 " class="button" type="submit">
+  </form>
+</div>
+
+<!-- 订单列表 -->
+<form method="post" action="order.php?act=operate" name="listForm" onsubmit="return check()">
+  <div class="list-div" id="listDiv">
+
+<table cellpadding="3" cellspacing="1">
+  <tbody><tr>
+    <th>
+      <input onclick='listTable.selectAll(this, "checkboxes")' type="checkbox"><a href="javascript:listTable.sort('order_sn',%20'DESC');">订单号</a>    </th>
+    <th><a href="javascript:listTable.sort('add_time',%20'DESC');">下单时间</a><img src="images/sort_desc.gif"></th>
+    <th><a href="javascript:listTable.sort('consignee',%20'DESC');">收货人</a></th>
+    <th><a href="javascript:listTable.sort('total_fee',%20'DESC');">总金额</a></th>
+    <th><a href="javascript:listTable.sort('order_amount',%20'DESC');">应付金额</a></th>
+    <th>订单状态</th>
+    <th>操作</th>
+  </tr>
+  	<?php foreach($list as $key=>$val): ?>
+    <tr>
+    <td style="background-color: rgb(255, 255, 255);" nowrap="nowrap" valign="top"><input name="checkboxes" value="2016042913102" type="checkbox"><a href="http://www.php.com/RBAC/practice/ECSHOP/upload/admin/order.php?act=info&amp;order_id=33" id="order_0"><?php echo $val['d_num'] ?></a></td>
+    <td style="background-color: rgb(255, 255, 255);">ecshop<br><?php echo $val['d_date'] ?></td>
+    <td style="background-color: rgb(255, 255, 255);" align="left" valign="top"><a href="mailto:ecshop@ecshop.com"> <?php echo $val['d_name'] ?></a>  <br></td>
+    <td style="background-color: rgb(255, 255, 255);" align="right" nowrap="nowrap" valign="top">￥<?php echo $val['d_sumprice']?>元</td>
+    <td style="background-color: rgb(255, 255, 255);" align="right" nowrap="nowrap" valign="top">￥<?php echo $val['d_sumprice']?>元</td>
+    <?php if($val['d_state']==0){ ?>
+    	<td style="background-color: rgb(255, 255, 255);" align="center" nowrap="nowrap" valign="top">未付款</td>
+    <?php }else{ ?>
+		<td style="background-color: rgb(255, 255, 255);" align="center" nowrap="nowrap" valign="top">已付款</td>
+	<?php } ?>
+    <td style="background-color: rgb(255, 255, 255);" align="center" nowrap="nowrap" valign="top">
+     <a href="javascript:;">查看</a>
+         </td>
+  </tr>
+<?php endforeach; ?>
+  </tbody></table>
+
+<!-- 分页 -->
+<!-- <table id="page-table" cellspacing="0">
+  <tbody><tr>
+    <td align="right" nowrap="true">
+          $Id: page.htm 14216 2008-03-10 02:27:21Z testyang $
+            <div id="turn-page">
+        总计  <span id="totalRecords">33</span>
+        个记录分为 <span id="totalPages">3</span>
+        页当前第 <span id="pageCurrent">1</span>
+        页，每页 <input size="3" id="pageSize" value="15" type="text">
+        <span id="page-link">
+          <a href="javascript:listTable.gotoPageFirst()">第一页</a>
+          <a href="javascript:listTable.gotoPagePrev()">上一页</a>
+          <a href="javascript:listTable.gotoPageNext()">下一页</a>
+          <a href="javascript:listTable.gotoPageLast()">最末页</a>
+          <select id="gotoPage" onchange="listTable.gotoPage(this.value)">
+            <option selected="selected" value="1">1</option><option value="2">2</option><option value="3">3</option>          </select>
+        </span>
+      </div>
+    </td>
+  </tr>
+</tbody></table> -->
+  </div>
+  <div>
+   <!--  <input name="confirm" id="btnSubmit" value="确认" class="button" disabled="true" onclick="this.form.target = '_self'" type="submit">
+   <input name="invalid" id="btnSubmit1" value="无效" class="button" disabled="true" onclick="this.form.target = '_self'" type="submit">
+   <input name="cancel" id="btnSubmit2" value="取消" class="button" disabled="true" onclick="this.form.target = '_self'" type="submit">
+   <input name="remove" id="btnSubmit3" value="移除" class="button" disabled="true" onclick="this.form.target = '_self'" type="submit">
+   <input name="print" id="btnSubmit4" value="打印订单" class="button" disabled="true" onclick="this.form.target = '_blank'" type="submit"> -->
+  </div>
+</form>
+<div id="footer">
+共执行 4 个查询，用时 0.016411 秒，Gzip 已禁用，内存占用 4.671 MB<br>
+版权所有 © 2005-2012 上海商派网络科技有限公司，并保留所有权利。</div>
+<!-- 新订单提示信息 -->
+<div id="popMsg">
+  <table bgcolor="#cfdef4" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td style="color: #0f2c8c" height="24" width="30"></td>
+    <td style="font-weight: normal; color: #1f336b; padding-top: 4px;padding-left: 4px" valign="center" width="100%"> 新订单通知</td>
+    <td style="padding-top: 2px;padding-right:2px" align="right" valign="center" width="19"><span title="关闭" style="cursor: hand;cursor:pointer;color:red;font-size:12px;font-weight:bold;margin-right:4px;" onclick="Message.close()">×</span></td>
+  </tr>
+  <tr>
+    <td style="padding-right: 1px; padding-bottom: 1px" colspan="3" height="70">
+    <div id="popMsgContent">
+      <p>您有 <strong style="color:#ff0000" id="spanNewOrder">1</strong> 个新订单以及       <strong style="color:#ff0000" id="spanNewPaid">0</strong> 个新付款的订单</p>
+      <p style="word-break:break-all" align="center"><a href="http://www.php.com/RBAC/practice/ECSHOP/upload/admin/order.php?act=list"><span style="color:#ff0000">点击查看新订单</span></a></p>
+    </div>
+    </td>
+  </tr>
+  </tbody></table>
+</div>
+<div style="top: 327px; left: 109px; display: none;" class="order-goods" id="order_goods_layer"><table cellpadding="3" cellspacing="1" width="100%">
+  <tbody><tr>
+    <td scope="col"><div align="center"><strong>商品名称 [ 品牌 ]</strong></div></td>
+    <td scope="col"><div align="center"><strong>货号</strong></div></td>
+    <td scope="col"><div align="center"><strong>价格</strong></div></td>
+    <td scope="col"><div align="center"><strong>数量</strong></div></td>
+    <td scope="col"><div align="center"><strong>属性</strong></div></td>
+    <td scope="col"><div align="center"><strong>库存</strong></div></td>
+    <td scope="col"><div align="center"><strong>小计</strong></div></td>
+  </tr>
+    <tr>
+        <td><img src=""><br><a href="http://www.php.com/RBAC/practice/ECSHOP/upload/goods.php?id=10" target="_blank">索爱C702c [ 索爱 ]        </a></td>
+        <td>ECS000010</td>
+    <td><div align="right">￥1261.60元</div></td>
+    <td><div align="right">1    </div></td>
+    <td>颜色:黑色 <br>
+</td>
+    <td><div align="right">7</div></td>
+    <td><div align="right">￥1261.60元</div></td>
+  </tr>
+  </tbody></table></div></body></html>

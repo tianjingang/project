@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册</title>
+<base href="<?php echo base_url('Public/Home').'/' ?>" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/shopping-mall-index.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/zhonglin.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script  type="text/javascript" src="js/jquery.qrcode.min.js"></script>
+</head>
+<script>
+    $(function(){
+        $("#verify").click(function(){
+            $(this).attr('src','<?php echo site_url("Index/verify") ?>'+'/'+Math.random());
+        });
+        $("#change").click(function(){
+            $("#verify").attr('src','<?php echo site_url("Index/verify") ?>'+'/'+Math.random());
+        });
+        $("input[name='username']").blur(function(){      //验证用户名
+            var username = $(this).val();
+            $(this).next().remove();  //移除后边的内容
+            if(username=='')
+            {
+                $(this).after("<span class='span' style='color:red'>用户名不能为空</span>");
+            }
+            else
+            {
+                var preg = /^[\u4e00-\u9fa5]{2,4}$/;
+                if(!preg.test(username))
+                {
+                    $(this).after("<span class='span' style='color:red'>用户名格式不正确</span>");
+                }
+            }
+        });
+        $("input[name='pwd']").blur(function(){    //验证密码
+            var pwd = $(this).val();
+            $(this).next().remove();  //移除后边的内容
+            if(pwd=='')
+            {
+                $(this).after("<span class='span' style='color:red'>密码不能为空</span>");
+            }
+            else
+            {
+                var preg = /^\w{4,12}$/;
+                if(!preg.test(pwd))
+                {
+                    $(this).after("<span class='span' style='color:red'>密码必须是数字字母下划线4到12位</span>");
+                }
+            }
+        });
+         $("input[name='qpwd']").blur(function(){    //验证确认密码
+            var qpwd = $(this).val();
+            var pwd = $("input[name='pwd']").val();  //获取密码值
+            $(this).next().remove();  //移除后边的内容
+            if(qpwd=='')
+            {
+                $(this).after("<span class='span'style='color:red'>确认密码不能为空</span>");
+            }
+            else
+            {
+                if(pwd!=qpwd)
+                {
+                     $(this).after("<span class='span'style='color:red'>密码不一致</span>");  //验证密码是否一致
+                }
+            }
+        });
+          $("input[name='cell']").blur(function(){    //验证手机号
+            var cell = $(this).val();
+            $(this).next().remove();  //移除后边的内容
+            if(cell=='')
+            {
+                $(this).after("<span class='span'style='color:red'>手机号不能为空</span>");
+            }
+            else
+            {
+                var preg = /^\d{11}$/;
+                if(!preg.test(cell))
+                {
+                    $(this).after("<span class='span'style='color:red'>手机号必须是11位</span>");
+                }
+            }
+        });
+          $("input[name='code']").blur(function(){    //验证验证码是否非空
+            var code = $(this).val();
+            $(this).next().remove();  //移除后边的内容
+            if(code=='')
+            {
+                $(this).after("<span class='span'style='color:red'>验证码不能为空</span>");
+            }
+        });
+        $("#center").click(function(){
+            $("input[name='username']").trigger("blur");
+            $("input[name='pwd']").trigger("blur");
+            $("input[name='qpwd']").trigger("blur");
+            $("input[name='cell']").trigger("blur");
+            $("input[name='code']").trigger("blur");
+            if($(".span").length==0)
+            {
+                $.ajax({
+                    type:'post',
+                    url:'<?php echo site_url("Index/checkregister") ?>',
+                    data:({
+                        username:$("input[name='username']").val(),
+                        pwd:$("input[name='pwd']").val(),
+                        qpwd:$("input[name='qpwd']").val(),
+                        cell:$("input[name='cell']").val(),
+                        code:$("input[name='code']").val()
+                    }),
+                    success:function(msg)
+                    {
+                        if(msg==0)
+                        {
+                            alert("注册失败");
+                        }
+                        else
+                        {
+                            alert('注册成功');
+                            var path = '<?php echo site_url("Index/indexs") ?>';  //跳转页面
+                            location.href=path;
+                        }
+                    }
+                });
+            }
+        });
+        $("#myselef").click(function(){         //跳转我的个人中心前要进行判断是否登录
+            var session = $('.session').html();
+            if(session=="")
+            {
+                alert('请您先登录！');
+                location.href='<?php echo site_url("Index/login") ?>';
+            }
+            else
+            {
+                location.href='<?php echo site_url("Index/selfcenter") ?>';
+            }
+        });
+        $("#mycar").click(function(){    //跳转我的购物车前要进行判断是否登录
+            var session = $(".session").html();
+            if(session=="")
+            {
+                alert('请您先登录！');
+                location.href='<?php echo site_url("Index/login") ?>';
+            }
+            else
+            {
+                location.href="<?php echo site_url('Shopping/mycar') ?>";
+            }
+        });
+        $("#myindent").click(function(){   //跳转我的订单列表前要进行判断是否登录
+            var session = $(".session").html();
+            if(session=="")
+            {
+                alert('请您先登录！');
+                location.href='<?php echo site_url("Index/login") ?>';
+            }
+            else
+            {
+                location.href="<?php echo site_url('Shopping/indentlist')?>";
+            }
+        })
+        $("#code").qrcode({ 
+            render: "table", //table方式 
+            width: 100, //宽度 
+            height:100, //高度 
+            text: "http://www.mi.com/" //任意内容 
+        }); 
+    });
+</script>
+<body>
+	<!--top 开始-->
+    <div class="top">
+    	<div class="top-con w1200">
+        <?php if($this->session->username){ ?>
+            <p class="t-con-l f-l">您好，欢迎<span style='color:red' class='session' ><?php echo $this->session->username ?></span>来到宅客微购 </p>
+        <?php }else{ ?>
+                <p class="t-con-l f-l">您好，<span class='session'></span>欢迎来到宅客微购  <a href="<?php echo site_url('Index/login') ?>">登录</a></p>
+        <?php } ?>
+            <ul class="t-con-r f-r">
+            <li><a href="<?php echo site_url('Index/indexs') ?>">首页</a></li>
+            	<li><a id="myselef" href="javascript:;">我 (个人中心)</a></li>
+            	<li><a id="mycar" href="javascript:;">我的购物车</a></li>
+            	<li><a id="myindent" href="javascript:;">我的订单</a></li>
+            	<li class="erweima">
+                	<a href="javascript:;">扫描二维码</a>
+                    <div class="ewm-tu">
+                    	<div id="code"></div>
+                    </div>
+                </li>
+                <div style="clear:both;"></div>
+            </ul>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <!--logo search 开始-->
+    <div class="hd-info1 w1200">
+    	<div class="logo f-l">
+        	<h1><a href="#" title="中林网站"><img src="images/logo.jpg" /></a></h1>
+        </div>
+        <div class="search f-r">
+        	<ul class="sp">
+            	<li class="current" ss-search="sp"><a href="JavaScript:;">商品</a></li>
+                <li ss-search="dp"><a href="JavaScript:;">店铺</a></li>
+                <div style="clear:both;"></div>
+            </ul>
+            <div class="srh">
+            	<div class="ipt f-l">
+                	<input type="text" placeholder="搜索商品..." ss-search-show="sp" />
+                    <input type="text" placeholder="搜索店铺..." ss-search-show="dp" style="display:none;" />
+                </div>
+                <button class="f-r">搜 索</button>
+                <div style="clear:both;"></div>
+            </div>
+            <ul class="sp2">
+                <li><a href="#">绿豆</a></li>
+                <li><a href="#">大米</a></li>
+                <li><a href="#">驱蚊</a></li>
+                <li><a href="#">洗面奶</a></li>
+                <li><a href="#">格力空调</a></li>
+                <li><a href="#">洗发护发</a></li>
+                <li><a href="#">葡萄 </a></li>
+                <li><a href="#">脉动</a></li>
+                <li><a href="#">海鲜水产</a></li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <!--内容开始-->
+    <div class="password-con registered">
+    	<div class="psw">
+        	<p class="psw-p1">用户名</p>
+            <input type="text" name='username' placeholder="用户名" /><!-- 
+            <span class="dui"></span> -->
+        </div>
+    	<div class="psw">
+        	<p class="psw-p1">输入密码</p>
+            <input type="text" name='pwd' placeholder="请输入密码" />
+        </div>
+    	<div class="psw">
+        	<p class="psw-p1">确认密码</p>
+            <input type="text" name='qpwd' placeholder="请再次确认密码" />
+        </div>
+    	<div class="psw psw2">
+        	<p class="psw-p1">手机号/邮箱</p>
+            <input type="text" name='cell' placeholder="请输入手机号" />
+        </div>
+    	<div class="psw psw3">
+        	<p class="psw-p1">验证码</p>
+            <input type="text" name='code' placeholder="请输入邮箱验证码" />
+        </div>
+        <div class="yanzhentu">
+        	<div class="yz-tu f-l">
+            	<img src="<?php echo site_url('Index/verify') ?>" id='verify' />
+            </div>
+            <p class="f-l">看不清？<a href="javascript:;" id="change">换张图</a></p>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="agreement">
+        	<input type="checkbox" name="hobby"></input>
+            <p>我有阅读并同意<span>《宅客微购网站服务协议》</span></p>
+        </div>
+        <button class="psw-btn" id="center">立即注册</button>
+        <p class="sign-in">已有账号？请<a href="<?php echo site_url('Index/login') ?>">登录</a></p>
+    </div>
+    <!--底部服务-->
+    <div class="ft-service">
+    	<div class="w1200">
+        	<div class="sv-con-l2 f-l">
+            	<dl>
+                	<dt><a href="#">新手上路</a></dt>
+                    <dd>
+                    	<a href="#">购物流程</a>
+                    	<a href="#">在线支付</a>
+                    </dd>
+                </dl>
+                <dl>
+                	<dt><a href="#">配送方式</a></dt>
+                    <dd>
+                    	<a href="#">货到付款区域</a>
+                    	<a href="#">配送费标准</a>
+                    </dd>
+                </dl>
+                <dl>
+                	<dt><a href="#">购物指南</a></dt>
+                    <dd>
+                    	<a href="#">常见问题</a>
+                    	<a href="#">订购流程</a>
+                    </dd>
+                </dl>
+                <dl>
+                	<dt><a href="#">售后服务</a></dt>
+                    <dd>
+                    	<a href="#">售后服务保障</a>
+                    	<a href="#">退款说明</a>
+                    	<a href="#">新手选购商品总则</a>
+                    </dd>
+                </dl>
+                <dl>
+                	<dt><a href="#">关于我们</a></dt>
+                    <dd>
+                    	<a href="#">投诉与建议</a>
+                    </dd>
+                </dl>
+                <div style="clear:both;"></div>
+            </div>
+        	<div class="sv-con-r2 f-r">
+            	<p class="sv-r-tle">131-2672-6827</p>
+            	<p>周一至周五9:00-17:30</p>
+            	<p>（仅收市话费）</p>
+            	<a href="#" class="zxkf">24小时在线客服</a>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <!--底部 版权-->
+    <div class="footer w1200">
+    	<p>
+        	<a href="#">关于我们</a><span>|</span>
+        	<a href="#">友情链接</a><span>|</span>
+        	<a href="#">宅客微购社区</a><span>|</span>
+        	<a href="#">诚征英才</a><span>|</span>
+        	<a href="#">商家登录</a><span>|</span>
+        	<a href="#">供应商登录</a><span>|</span>
+        	<a href="#">热门搜索</a><span>|</span>
+        	<a href="#">宅客微购新品</a><span>|</span>
+        	<a href="#">开放平台</a>
+        </p>
+        <p>
+        	沪ICP备13044278号<span>|</span>合字B1.B2-20130004<span>|</span>营业执照<span>|</span>互联网药品信息服务资格证<span>|</span>互联网药品交易服务资格证
+        </p>
+    </div>
+</body>
+</html>

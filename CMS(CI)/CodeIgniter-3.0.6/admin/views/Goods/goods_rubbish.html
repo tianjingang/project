@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<base href="<?php echo base_url('Public/Admin').'/' ?>" />
+	<title></title>
+	<link href="styles/general.css" rel="stylesheet" type="text/css" />
+	<link href="styles/main.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script>
+	$(function(){
+		$(document).on("click","#number",function(){      //全选
+			var id = $("input[name='id[]'");
+			for(var i=0;i<id.length;i++)
+			{
+				if($(this).attr("checked"))
+				{
+					id.attr("checked",true);
+				}
+				else
+				{
+					id.attr('checked',false);
+				}	
+			}
+		});
+		$(document).on("click","#huan",function(){     //修改状态码从回收站还原
+			var id = $(this).attr('name');  //获取点击时的id
+			if(confirm("您确定要还原该商品吗？"))
+			{
+				$.post("<?php echo site_url('Goods/uprubbish') ?>",{id:id},function(str){
+					var path = '<?php echo site_url("Goods/goodsrubbish") ?>';
+					if(str==1){location.href=path;}
+				});
+			}
+		});
+		$(document).on("click","#del",function(){   		//删除商品
+			var id=$(this).attr("name");
+			if(confirm("您确定要删除该商品吗？"))
+			{	
+				$.post("<?php echo site_url('Goods/delgoods') ?>",{id:id},function(str){
+					var path = '<?php echo site_url("Goods/goodsrubbish") ?>';
+					if(str==1){location.href=path;}
+				});
+			}
+		});
+		$("#search").click(function(){  //搜索功能
+			var con = $(this).prev().val();
+			$.get("<?php echo site_url('Goods/searchrubbish') ?>",{con:con},function(data){
+				var str="<tr><th><input type='checkbox' id='number'>编号</th><th>商品名称</th><th>货号</th><th>价格</th><th>操作</th></tr>";
+				for(var i=0;i<data.length;i++)
+				{
+					str = str + "<tr><td><input type='checkbox' name='id[]' >"+data[i].id+"</td><td class='first-cell'><span id='g_name' name="+data[i].id+" >"+data[i].g_name+"</span></td><td><span id='g_num' name="+data[i].id+">"+data[i].g_num+"</span></td><td align='right'><span id='g_selfprice' name="+data[i].id+">"+data[i].g_selfprice+"</span></td><td align='center'><a href='javascript:;' id='huan' name="+data[i].id+">还原</a> |<a href='javascript:;' id='del' name="+data[i].id+">删除</a></td></tr>";
+				}
+				$("#trs").html(str);
+			},'json');
+		});
+	});
+</script>
+</head>
+<body>
+<h1>
+	<span class="action-span"><a href="<?php echo site_url('Goods/goodslist') ?>">商品列表</a></span>
+	<span class="action-span1"><a href="index.php?act=main">ECSHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 商品回收站 </span>
+	<div style="clear:both"></div>
+</h1>
+<div class="form-div">
+  <!-- <form action="" name="searchForm"> -->
+    <img src="images/icon_search.gif" width="26" height="22" border="0" alt="SEARCH">
+	<!-- 关键字 -->
+		关键字 <input type="text" name="search" size="15">
+		<input type="submit" value=" 搜索 "  id="search" class="button">
+  <!-- </form> -->
+</div>
+<form method="post" action="" name="listForm" onsubmit="return confirmSubmit(this)">
+	<div class="list-div" id="listDiv">
+		<table cellpadding="3" cellspacing="1">
+			<tbody id="trs">
+				<tr>
+					<th><input type="checkbox" id="number">编号</th>
+					<th>商品名称</th>
+					<th>货号</th>
+					<th>价格</th>
+					<th>操作</th>
+				</tr>
+				<tr></tr>
+				<?php foreach($list as $key=>$val){ ?>
+				<tr>
+					<td><input type="checkbox" name="id[]" ><?php echo $val['id'] ?></td>
+					<td class="first-cell"><span id="g_name" name="<?php echo $val['id'] ?>" ><?php echo $val['g_name'] ?></span></td>
+					<td><span id="g_num" name="<?php echo $val['id'] ?>"><?php echo $val['g_num'] ?></span></td>
+					<td align="right"><span id="g_selfprice" name="<?php echo $val['id'] ?>"><?php echo $val['g_selfprice'] ?></span></td>
+					<td align="center">
+						<a href="javascript:;" id="huan" name="<?php echo $val['id'] ?>">还原</a> |<a href="javascript:;" id="del" name="<?php echo $val['id'] ?>">删除</a>
+					</td>
+				</tr>
+				<?php } ?>
+  </tbody>
+ </table>
+	<!-- 分页 -->
+	<table id="page-table" cellspacing="0">
+		<tbody>
+			<tr>
+				<td align="right" nowrap="true" style="background-color: rgb(255, 255, 255);">
+				当前<span style="color:Red"><big><?php echo $page ?></big></span>页
+					总共<span style="color:Red"><small><?php echo $page_sum ?></small></span>页 <?php echo $pages ?>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div>
+	<!-- <select name="type" id="selAction" onchange="changeAction()">
+		<option value="">请选择...</option>
+		<option value="trash">回收站</option>
+		<option value="on_sale">上架</option>
+		<option value="not_on_sale">下架</option>
+		<option value="best">精品</option>
+		<option value="not_best">取消精品</option>
+		<option value="new">新品</option>
+		<option value="not_new">取消新品</option>
+		<option value="hot">热销</option>
+		<option value="not_hot">取消热销</option>
+		<option value="move_to">转移到分类</option>
+		<option value="suppliers_move_to">转移到供货商</option>
+	</select>     <input type="submit" value=" 确定 " id="btnSubmit" name="btnSubmit" class="button" disabled="true">-->
+
+</div>
+</form>
+<div id="footer">
+	版权所有 &copy; 2006-2013 传智播客 - PHP培训 - 
+</div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!-- $Id: area_list.htm 14216 2008-03-10 02:27:21Z testyang $ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>ECSHOP 管理中心 - 地区列表 </title>
+<meta name="robots" content="noindex, nofollow">
+<base href="<?php echo base_url().'/Public/Admin/';?>" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="styles/general.css" rel="stylesheet" type="text/css">
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<h1>
+<span class="action-span1"><a href="http://www.php.com/RBAC/practice/ECSHOP/upload/admin/index.php?act=main">ECSHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 地区列表 </span>
+<div style="clear:both"></div>
+</h1>
+<!--<script type="text/javascript" src="__PUBLIC__/Home/js/utils.js">
+</script><script type="text/javascript" src="__PUBLIC__/Home/js/listtable.js"></script>-->
+<div class="form-div">
+<!-- <form method="post" action="__URL__/addarea/" name="theForm"> -->
+新增<?php echo $areas[0]['area_type'];?>地区:
+<input name="area_name" maxlength="150" size="40" type="text">
+<input name="area_type" value="<?php echo $areas[0]['area_type'];?>" type="hidden">
+<input name="parent_id" value="<?php echo $areas[0]['parent_id'];?>" type="hidden">
+<input value=" 确定 " class="button"  id="add" type="submit">
+<!-- </form> -->
+</div>
+<div class="list-div">
+<table id="listTable" cellpadding="3" cellspacing="1">
+  <tbody><tr>
+    <th><?php echo $areas[0]['area_type'];?>地区</th>
+  </tr>
+</tbody></table>
+</div>
+<div class="list-div" id="listDiv">
+<?php if($areas[0]['area_name']==''):?>
+  <table id="listTable" cellpadding="3" cellspacing="1">
+  <tbody class="a">
+  </tbody>
+</table>
+<?php else:?>
+<table id="listTable" cellpadding="3" cellspacing="1">
+  <tbody class="a">
+  <?php foreach($areas as $res):?>
+      <tr>
+      <td style="background-color: rgb(255, 255, 255);" class="first-cell" align="left">
+       <span><?php echo $res['area_name'];?></span>
+       <span class="link-span">
+              <a href="<?php echo site_url('Area/arealist').'/'.$res['area_type'].'/'.$res['area_id'];?>" title="管理">
+         管理</a>&nbsp;&nbsp;
+              <a href="javascript:;" num="<?php echo $res['area_id'];?>" title="删除" class="area">删除</a>
+       </span>
+      </td>
+      </tr>
+    <?php endforeach;?>
+</tbody>
+</table>
+<?php endif;?>
+</div>
+<div id="footer">
+版权所有 © 2005-2012 上海商派网络科技有限公司，并保留所有权利。</div>
+<!-- 新订单提示信息 -->
+<div id="popMsg">
+  <table width="100%" bgcolor="#cfdef4" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td style="color: #0f2c8c" width="30" height="24"></td>
+    <td style="font-weight: normal; color: #1f336b; padding-top: 4px;padding-left: 4px" valign="center" width="100%"> 新订单通知</td>
+    <td style="padding-top: 2px;padding-right:2px" valign="center" width="19" align="right"><span title="关闭" style="cursor: hand;cursor:pointer;color:red;font-size:12px;font-weight:bold;margin-right:4px;" onclick="Message.close()">×</span></td>
+  </tr>
+  <tr>
+    <td style="padding-right: 1px; padding-bottom: 1px" colspan="3" height="70">
+    <div id="popMsgContent">
+      <p>您有 <strong style="color:#ff0000" id="spanNewOrder">1</strong> 个新订单以及       <strong style="color:#ff0000" id="spanNewPaid">0</strong> 个新付款的订单</p>
+      <p style="word-break:break-all" align="center"><a href="http://www.php.com/RBAC/practice/ECSHOP/upload/admin/order.php?act=list"><span style="color:#ff0000">点击查看新订单</span></a></p>
+    </div>
+    </td>
+  </tr>
+  </tbody></table>
+</div>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://active.macromedia.com/flash2/cabs/swflash.cab#version=4,0,0,0" id="msgBeep" width="1" height="1">
+  <param name="movie" value="images/online.swf">
+  <param name="quality" value="high">
+ <!--  <embed src="area_manage_data/online.swf" name="msgBeep" id="msgBeep" quality="high" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?p1_prod_version=shockwaveflash" width="0" height="0"> -->
+</object>
+</body></html>
+<script>
+    $('#add').click(function(){
+          var url="<?php echo site_url('Area/area_add');?>";
+          var area_name = $("input[name='area_name']").val();  //获取文本框的值
+          var area_type = $("input[name='area_type']").val();  //获取级别值
+          var parent_id = $("input[name='parent_id']").val();  
+          $.post(url,{area_name:area_name,area_type:area_type,parent_id:parent_id},function(data){
+           var data=JSON.parse(data);
+            if(data.status)
+            {
+                $('<tr><td style="background-color: rgb(255, 255, 255);" class="first-cell" align="left"><span>'+area_name+'</span><span class="link-span"><a href="'+data.href+'" title="管理">管理</a>&nbsp;&nbsp;<a href="javascript:;" title="删除" num="'+data.area_id+'" class="area">删除</a></span></td></tr>').appendTo('.a'); 
+                $('.area').click(function(){
+                  var area=$(this);
+                  $.post('<?php echo site_url("Area/area_del");?>',{area_id:$(this).attr('num')},function(data){
+                    var data=JSON.parse(data);
+                    if(data.status)
+                    {
+                        //移除此行
+                        area.parents('tr').remove();
+                    }
+                    else
+                    {
+                        alert(data.msg);
+                    }
+                  });
+              });
+            }
+            else
+            {
+              alert(data.msg);
+            }
+          });
+    });
+    $('.area').click(function(){
+          var area=$(this);
+          //传ID
+          $.post('<?php echo site_url("Area/area_del");?>',{area_id:$(this).attr('num')},function(data){
+              var data=JSON.parse(data);
+              if(data.status)
+              {
+                  //移除此行
+                  area.parents('tr').remove();
+              }
+              else
+              {
+                 alert(data.msg)
+              }
+          })
+    });
+</script>

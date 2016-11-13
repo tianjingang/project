@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<script src="<?php echo base_url('Public/Admin/js/jquery-1.7.2.min.js') ?>"></script>
+<base href='<?php echo base_url('Public/Admin').'/' ?>'/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="styles/general.css" rel="stylesheet" type="text/css" />
+<link href="styles/main.css" rel="stylesheet" type="text/css" />
+<script>
+$(function(){
+      //变色
+      $('.error').css('color','#83FF12');
+      $('#verify').click(function(){
+        //验证码切换
+        $(this).attr("src","<?php echo site_url('Index/verify') ?>"+'/'+Math.random());
+      });
+      //验证用户名非空
+      $("input[name='username']").blur(function(){
+            $(this).next().remove();
+            var username = $(this).val();
+            if(username=="")
+            {
+                $(this).after('<span>姓名不能为空</span>');
+            }
+      });
+      //验证密码非空
+      $("input[name='pwd']").blur(function(){
+            $(this).next().remove();
+            var pwd = $(this).val();
+            if(pwd=="")
+            {
+              $(this).after('<span>密码不能为空</span>');
+            }
+      });
+      //验证验证码非空
+      $("input[name='code']").blur(function(){
+            $(this).next().remove();
+            var code = $(this).val();
+            if(code=="")
+            {
+                 $(this).after('<span>验证码不能为空</span>');
+            }
+      });
+      //验证登录按钮
+      $('.button').click(function(){
+            // alert($('table span').length);
+            $("input[name='username']").trigger('blur');
+            $("input[name='pwd']").trigger('blur');
+            $("input[name='code']").trigger('blur');
+            //当都不为空的时候进行ajax传值
+            if($('table span').length==0)
+            {
+              $.ajax({
+                  type:'post',
+                  url:"<?php echo site_url('Index/checklogin') ?>",
+                  data:({
+                      username:$("input[name='username']").val(),
+                      pwd:$("input[name='pwd']").val(),
+                      code:$("input[name='code']").val(),
+                      remember:$("input[name='remember']").attr('checked')
+                  }),
+                  success:function(data)
+                  {
+                     if(data=='0')
+                     {
+                        alert('验证码不正确');
+                     }
+                     else if(data=='1')
+                     {
+                         $(".tips").css({
+                         'position':'absolute',
+                         'top':($(window).height()-$('.tips').height())/2+'px',
+                         'left':($(window).width()-$('.tips').width())/2+'px',
+                          //延迟时间一秒半，为向上卷效果
+                          }).show().delay(1500).slideUp();
+                     }
+                     else
+                     {
+                        location.href="<?php echo site_url('Admin/index') ?>";
+                     }
+                  }
+                }); 
+            }
+      });
+});
+</script>
+<style type="text/css">
+body {
+  color: white;
+}
+</style>
+
+</head>
+<body style="background: #278296">
+<!--<form method="post" action="#" name='theForm'>-->
+  <table cellspacing="0" cellpadding="0" style="margin-top: 100px" align="center">
+  <tr>
+    <td><img src="images/login.png" width="178" height="256" border="0" alt="ECSHOP" /></td>
+    <td style="padding-left:20px">
+      <table>
+      <tr style="width=200px;">
+        <td class="error">管理员姓名：</td>
+        <td width="300"><input type="text" name="username"/></td>
+      </tr>
+      <tr>
+        <td class="error">管理员密码：</td>
+        <td><input type="password" name="pwd" /></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="error">验证码：</td>
+        <td><input type="text" name="code" class="capital" /></td>
+        <td></td>
+      </tr>
+      <tr>
+      <td colspan="2" align="left" style="padding-left:80px;"><img src="<?php echo site_url('Index/verify') ?>" id="verify" style="cursor:pointer;" width="140" height="30" border="1" />
+      </td>
+      </tr>
+      <tr><td colspan="2"><input type="checkbox" value="50" name="remember" id="remember" /><label for="remember" class="error">七天免登录</label></td></tr>
+      <tr><td>&nbsp;</td><td><input type="submit" value="进入管理中心" class="button" /></td></tr>
+      <tr>
+        <td colspan="2" align="left" style="padding-left:80px;">
+        <big class="error">&raquo;</big><a href="../" style="color:white" class="error">返回首页</a>
+        <big class="error">&raquo;</big><a href="get_password.php?act=forget_pwd" style="color:white" class="error">你忘记了密码吗？</a></td>
+      </tr>
+      </table>
+    </td>
+  </tr>
+  </table>
+  <div class="tips"style="width:300px;height:150px;border:dashed darkorange 3px;background:purple;display:none; font-color:red;"><p style="padding-top:40px;padding-left:84px;color:#68FF0E">用户名或密码不正确</p></div>
+  
+</form>-->
+
+</body>

@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base href="<?php echo base_url('Public/Admin').'/' ?>" />
+<title>SHOP 管理中心 - 类型管理 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="styles/general.css" rel="stylesheet" type="text/css" />
+<link href="styles/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script>
+  $(function(){
+    $(document).on("click","#n_name",function(){        //几点几改 （属性名称）
+        var id = $(this).attr('value');
+        var n_name = $(this).html();
+        $(this).parent().html("<input type='text' value='"+n_name+"' name='n_name' id='"+id+"' />");
+        $("input[name='n_name']").focus();
+    });
+    $(document).on("blur","input[name='n_name']",function(){
+        var id = $(this).attr('id');
+        var n_name = $(this).val();
+        $.post("<?php echo site_url('Goodstype/upgoods_type') ?>",{id:id,n_name:n_name},function(data){
+          if(data==1)
+          {
+              $("input[name='n_name']").parent().html("<span id='n_name' value='"+id+"' >"+n_name+"</span>");
+          }
+      });
+    });
+    $(document).on("click","#img",function(){    //几点几改 （状态）
+      var id = $(this).attr('value');  //获取相应的id
+      var n_name = $(this);
+      $.post("<?php echo site_url('Goodstype/upstate') ?>",{id:id},function(data){
+        if(data==1)
+        {
+            n_name.attr('src','images/yes.gif');
+        }
+        else
+        {
+            n_name.attr('src','images/no.gif')
+        }
+      });
+    });
+  });
+</script>
+</head>
+<body>
+<h1>
+<span class="action-span"><a href="goods_type.php?act=add">新建商品类型</a></span>
+<span class="action-span1"><a href="index.php?act=main">SHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 商品类型 </span>
+<div style="clear:both"></div>
+</h1>
+<form method="post" action="" name="listForm">
+<!-- start goods type list -->
+<div class="list-div" id="listDiv">
+	<table width="100%" cellpadding="3" cellspacing="1" id="listTable">
+		<tbody>
+			<tr>
+				<th>商品类型名称</th>
+				<th>属性分组</th>
+				<th>属性数</th>
+				<th>状态</th>
+				<th>操作</th>
+			</tr>
+      <?php foreach($list as $key=>$val){ ?>
+			<tr>
+				<td class="first-cell"><span id="n_name" value="<?php echo $val['nid'] ?>"><?php echo $val['n_name'] ?></span></td>
+				<td><?php echo $val['n_team'] ?></td>
+				<td align="right"><?php echo $val['n_number'] ?></td>
+        <?php if($val['n_state']==1){ ?>
+				<td align="center"><img src="images/yes.gif" id='img' name='<?php echo $val['n_state'] ?>' value='<?php echo $val['nid'] ?>'></td>
+        <?php }else{ ?>
+          <td align="center"><img src="images/no.gif" id='img' name='<?php echo $val['n_state'] ?>' value='<?php echo $val['nid'] ?>'></td>
+          <?php } ?>
+				<td align="center">
+				  <a href="<?php echo site_url('Goodstype/goodsattr?nid=').$val['nid'] ?>" title="属性列表">属性列表</a> |
+				  <a href="<?php echo site_url('Goodstype/compiletype?nid=').$val['nid'] ?>" title="编辑">编辑</a> |
+				  <a href="javascript:;" title="移除">移除</a>
+				</td>
+			</tr>
+      <?php } ?>
+      <tr>
+      <!-- <td align="right" nowrap="true" colspan="6" style="background-color: rgb(255, 255, 255);">
+            $Id: page.htm 14216 2008-03-10 02:27:21Z testyang $
+            <div id="turn-page">
+        总计  <span id="totalRecords">10</span>
+        个记录分为 <span id="totalPages">1</span>
+        页当前第 <span id="pageCurrent">1</span>
+        页，每页 <input type="text" size="3" id="pageSize" value="10" onkeypress="return listTable.changePageSize(event)">
+        <span id="page-link">
+          <a href="javascript:listTable.gotoPageFirst()">第一页</a>
+          <a href="javascript:listTable.gotoPagePrev()">上一页</a>
+          <a href="javascript:listTable.gotoPageNext()">下一页</a>
+          <a href="javascript:listTable.gotoPageLast()">最末页</a>
+          <select id="gotoPage" onchange="listTable.gotoPage(this.value)">
+            <option value="1">1</option>          </select>
+        </span>
+      </div>
+      </td> -->
+    </tr>
+  </tbody></table>
+</div>
+<!-- end goods type list -->
+</form>
+<div id="footer">
+	版权所有 &copy; 2006-2013 传智播客 - PHP培训 - </div>
+</div>
+</body>
+</html>
