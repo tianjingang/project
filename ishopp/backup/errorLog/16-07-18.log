@@ -1,0 +1,299 @@
+<ERROR_BLOCK>
+errorInfo: Undefined index: invite_sum
+errorFile: IWEB_PATH/controllers/ucenter.php
+errorLine: 913
+errorCode: 8
+errorTime: 2016-07-18 07:11:48
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Ucenter->doinvite()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: invite_sum
+errorFile: IWEB_PATH/controllers/ucenter.php
+errorLine: 913
+errorCode: 8
+errorTime: 2016-07-18 07:13:49
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Ucenter->doinvite()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: invite_sum
+errorFile: IWEB_PATH/controllers/ucenter.php
+errorLine: 913
+errorCode: 8
+errorTime: 2016-07-18 07:14:05
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Ucenter->doinvite()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: count
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 371
+errorCode: 8
+errorTime: 2016-07-18 13:47:28
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: count
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 371
+errorCode: 8
+errorTime: 2016-07-18 13:48:41
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: count
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 371
+errorCode: 8
+errorTime: 2016-07-18 13:48:53
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 14:27:18
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 14:31:14
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 14:33:25
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 15:07:53
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 15:09:51
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 15:11:55
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 15:14:52
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 15:28:35
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 15:29:21
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 16:01:02
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 16:03:03
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 16:08:17
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 16:10:58
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 16:14:29
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 16:46:26
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 18:38:18
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-18 19:42:06
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

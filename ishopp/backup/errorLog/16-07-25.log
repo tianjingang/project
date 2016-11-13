@@ -1,0 +1,90 @@
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-25 08:42:44
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_goods ( `img`,`name`,`search_words`,`seller_id`,`is_del`,`is_share`,`point`,`sort`,`unit`,`exp`,`model_id`,`brand_id`,`video`,`content`,`keywords`,`description`,`up_time`,`down_time`,`spec_array`,`goods_no`,`store_nums`,`market_price`,`sell_price`,`cost_price`,`weight`,`create_time` ) VALUES ( 'upload/2016/07/25/20160725084103280.jpg','苹果7','苹果,7','0','0','1','1','99','千克','1','0','0','接口1.wmv','','','','2016-07-25 08:42:44','','','SD146940719096','100','1','1','1','20','2016-07-25 08:42:44' ) 
+ -- Unknown column 'video' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-07-25 08:42:45
+#0 IWEB_PATH/lib/web/model/model_class.php(112): IDB->query(INSERT INTO iwebshop_goods ( `img`,`name`,`search_words`,`seller_id`,`is_del`,`is_share`,`point`,`sort`,`unit`,`exp`,`model_id`,`brand_id`,`video`,`content`,`keywords`,`description`,`up_time`,`down_time`,`spec_array`,`goods_no`,`store_nums`,`market_price`,`sell_price`,`cost_price`,`weight`,`create_time` ) VALUES ( 'upload/2016/07/25/20160725084103280.jpg','苹果7','苹果,7','0','0','1','1','99','千克','1','0','0','接口1.wmv','','','','2016-07-25 08:42:44','','','SD146940719096','100','1','1','1','20','2016-07-25 08:42:44' ) )
+#1 IWEB_PATH/classes/goods_class.php(174): IModel->add()
+#2 IWEB_PATH/controllers/goods.php(263): goods_class->update(0)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-25 08:42:53
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_goods ( `img`,`name`,`search_words`,`seller_id`,`is_del`,`is_share`,`point`,`sort`,`unit`,`exp`,`model_id`,`brand_id`,`video`,`content`,`keywords`,`description`,`up_time`,`down_time`,`spec_array`,`goods_no`,`store_nums`,`market_price`,`sell_price`,`cost_price`,`weight`,`create_time` ) VALUES ( 'upload/2016/07/25/20160725084103280.jpg','苹果7','苹果,7','0','0','1','1','99','千克','1','0','0','接口1.wmv','','','','2016-07-25 08:42:53','','','SD146940719096','100','1','1','1','20','2016-07-25 08:42:53' ) 
+ -- Unknown column 'video' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-07-25 08:42:54
+#0 IWEB_PATH/lib/web/model/model_class.php(112): IDB->query(INSERT INTO iwebshop_goods ( `img`,`name`,`search_words`,`seller_id`,`is_del`,`is_share`,`point`,`sort`,`unit`,`exp`,`model_id`,`brand_id`,`video`,`content`,`keywords`,`description`,`up_time`,`down_time`,`spec_array`,`goods_no`,`store_nums`,`market_price`,`sell_price`,`cost_price`,`weight`,`create_time` ) VALUES ( 'upload/2016/07/25/20160725084103280.jpg','苹果7','苹果,7','0','0','1','1','99','千克','1','0','0','接口1.wmv','','','','2016-07-25 08:42:53','','','SD146940719096','100','1','1','1','20','2016-07-25 08:42:53' ) )
+#1 IWEB_PATH/classes/goods_class.php(174): IModel->add()
+#2 IWEB_PATH/controllers/goods.php(263): goods_class->update(0)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-07-25 08:46:28
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_goods ( `img`,`name`,`search_words`,`seller_id`,`is_del`,`is_share`,`point`,`sort`,`unit`,`exp`,`model_id`,`brand_id`,`video`,`content`,`keywords`,`description`,`up_time`,`down_time`,`spec_array`,`goods_no`,`store_nums`,`market_price`,`sell_price`,`cost_price`,`weight`,`create_time` ) VALUES ( 'upload/2016/07/25/20160725084103280.jpg','苹果7','苹果,7','0','0','1','1','99','千克','1','0','0','接口1.mp4','','','','2016-07-25 08:46:28','','','SD146940719096','100','1','1','1','1','2016-07-25 08:46:28' ) 
+ -- Unknown column 'video' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-07-25 08:46:28
+#0 IWEB_PATH/lib/web/model/model_class.php(112): IDB->query(INSERT INTO iwebshop_goods ( `img`,`name`,`search_words`,`seller_id`,`is_del`,`is_share`,`point`,`sort`,`unit`,`exp`,`model_id`,`brand_id`,`video`,`content`,`keywords`,`description`,`up_time`,`down_time`,`spec_array`,`goods_no`,`store_nums`,`market_price`,`sell_price`,`cost_price`,`weight`,`create_time` ) VALUES ( 'upload/2016/07/25/20160725084103280.jpg','苹果7','苹果,7','0','0','1','1','99','千克','1','0','0','接口1.mp4','','','','2016-07-25 08:46:28','','','SD146940719096','100','1','1','1','1','2016-07-25 08:46:28' ) )
+#1 IWEB_PATH/classes/goods_class.php(174): IModel->add()
+#2 IWEB_PATH/controllers/goods.php(263): goods_class->update(0)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

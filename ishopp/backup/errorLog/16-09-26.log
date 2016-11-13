@@ -1,0 +1,48 @@
+<ERROR_BLOCK>
+errorInfo: Undefined variable: manage_data
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 102
+errorCode: 8
+errorTime: 2016-09-26 08:55:46
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 358
+errorCode: 2
+errorTime: 2016-09-26 08:55:47
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(115): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_goods_like ( `uid`,`gid`,`visttime`,`count` ) VALUES ( '','6','2016-09-26 08:56:20','1' ) 
+ -- Duplicate entry '6' for key 'gid'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-09-26 08:56:20
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_goods_like ( `uid`,`gid`,`visttime`,`count` ) VALUES ( '','6','2016-09-26 08:56:20','1' ) )
+#1 IWEB_PATH/controllers/site.php(473): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+

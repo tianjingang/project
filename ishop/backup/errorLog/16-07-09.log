@@ -1,0 +1,1278 @@
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_ad_city ( `0` ) VALUES ( 'Array' ) 
+ -- Unknown column '0' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-07-09 08:37:10
+#0 IWEB_PATH/lib/web/model/model_class.php(111): IDB->query(INSERT INTO iwebshop_ad_city ( `0` ) VALUES ( 'Array' ) )
+#1 IWEB_PATH/controllers/system.php(347): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): System->save_conf()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:40:29
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:40:30
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:40:31
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:40:31
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:40:31
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:40:31
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:40:31
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:40:32
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:40:32
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:40:32
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:40:32
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:44:21
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:44:21
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:44:21
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:32
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:34
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:35
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:36
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:36
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:37
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:37
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:37
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:37
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:37
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:56
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:57
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:57
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:57
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:57
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:57
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:59
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:59
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:59
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:48:59
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:49:00
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:49:43
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:49:44
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:49:44
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:49:44
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:49:44
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:49:53
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:49:54
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:49:54
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:49:54
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:50:03
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:50:04
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:50:04
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:50:04
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:50:05
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:50:05
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:50:06
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:50:06
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:50:06
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:50:06
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:50:07
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:09
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:10
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:10
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:10
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:12
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:12
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:13
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:13
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:13
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:14
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:15
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:16
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:16
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:22
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:23
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:24
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: session_start() [<a href='function.session-start'>function.session-start</a>]: user session functions not defined
+errorFile: IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php
+errorLine: 10
+errorCode: 2
+errorTime: 2016-07-09 08:51:24
+#0 IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php(10): session_start()
+#1 IWEB_PATH/plugins/oauth/qq/qq.php(43): require_once(IWEB_PATH/plugins/oauth/qq/API/qqConnectAPI.php)
+#2 IWEB_PATH/classes/oauth.php(57): Qq->getLoginUrl()
+#3 IWEB_PATH/controllers/simple.php(1364): Oauth->getLoginUrl()
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->oauth_login()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+errorFile: IWEB_PATH/classes/proxy.php
+errorLine: 23
+errorCode: 2
+errorTime: 2016-07-09 10:03:06
+#0 IWEB_PATH/classes/proxy.php(23): file_get_contents(http://product.aircheng.com/index.php?_c=system&_a=version)
+#1 IWEB_PATH/classes/proxy.php(44): Proxy::send(_c=system&_a=version)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(79): Proxy::getRemoteVersion()
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: file_get_contents(http://product.aircheng.com/index.php?_c=system&amp;_a=version) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+errorFile: IWEB_PATH/classes/proxy.php
+errorLine: 23
+errorCode: 2
+errorTime: 2016-07-09 10:03:06
+#0 IWEB_PATH/classes/proxy.php(23): file_get_contents(http://product.aircheng.com/index.php?_c=system&_a=version)
+#1 IWEB_PATH/classes/proxy.php(44): Proxy::send(_c=system&_a=version)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(79): Proxy::getRemoteVersion()
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

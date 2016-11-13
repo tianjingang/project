@@ -1,0 +1,54 @@
+<ERROR_BLOCK>
+errorInfo: Undefined index: id
+errorFile: IWEB_PATH/controllers/rowlock.php
+errorLine: 2
+errorCode: 8
+errorTime: 2016-07-20 08:16:29
+#0 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/controllers/rowlock.php)
+#1 : IWeb::autoload(rowlock)
+#2 : spl_autoload_call(rowlock)
+#3 IWEB_PATH/lib/core/webapplication_class.php(45): class_exists(rowlock)
+#4 IWEB_PATH/lib/core/webapplication_class.php(27): IWebApplication->createController()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: id
+errorFile: IWEB_PATH/controllers/rowlock.php
+errorLine: 19
+errorCode: 8
+errorTime: 2016-07-20 10:39:52
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Rowlock->minutes()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: id
+errorFile: IWEB_PATH/controllers/rowlock.php
+errorLine: 19
+errorCode: 8
+errorTime: 2016-07-20 10:40:55
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Rowlock->minutes()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: id
+errorFile: IWEB_PATH/controllers/rowlock.php
+errorLine: 19
+errorCode: 8
+errorTime: 2016-07-20 10:41:01
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Rowlock->minutes()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

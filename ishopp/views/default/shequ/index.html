@@ -1,0 +1,323 @@
+{set:
+$site_config=new Config('site_config');
+$seo_data=array();
+$seo_data['title']=$site_config->name;
+$seo_data['title'].=$site_config->index_seo_title;
+$seo_data['keywords']=$site_config->index_seo_keywords;
+$seo_data['description']=$site_config->index_seo_description;
+seo::set($seo_data);
+}
+<style type="text/css">
+    #allmap{height:400px;width:800px;}
+    #r-result{width:100%;}
+</style>
+
+<!--百度地图接口路径-->
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=KxIcdt0rHDeFwGNoewGtYDbgUgZaSChS"></script>
+<!--线路查询接口-->
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=sYaowGDw8lIRQ4KjCM365oFQ0ZOy0xuM"></script>
+<link rel="stylesheet" type="text/css" href="{theme:javascript/jquery.bxSlider/jquery.bxslider.css}" />
+<script type="text/javascript" src="{theme:javascript/jquery.bxSlider/jquery.bxSlider.min.js}"></script>
+<div class="wrapper clearfix">
+    <div class="sidebar f_r">
+        <!--cms新闻展示-->
+        <div class="box m_10">
+            <div class="title"><h2>Shop资讯</h2><a class="more" href="{url:/site/article}">更多...</a></div>
+            <div class="cont">
+                <ul class="list">
+                    {foreach:items=Api::run('getArtList',5)}
+                    {set:$tmpId=$item['id'];}
+                    <li><a href="{url:/site/article_detail/id/$tmpId}">{echo:Article::showTitle($item['title'],$item['color'],$item['style'])}</a></li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+        <!--cms新闻展示-->
+        {echo:Ad::show(8)}
+    </div>
+    <!--幻灯片 结束-->
+    <!--百度地图开始-->
+    <div class="main f_l">
+        <ul class="bxslider">
+            <li>
+            <div id="r-result">您注册时的社区:{$this->userinfo['position']}<input type="text" id="suggestId" size="20"  style="width:150px;"  name="position" value="{$this->userinfo['position']}"/></div>
+            <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
+                <div id="allmap"></div>
+            </li>
+        </ul>
+
+    </div>
+    <!--百度地图结束-->
+</div>
+{echo:Ad::show(6)}
+<div class="wrapper clearfix">
+    <div class="sidebar f_r">
+
+        <!--团购-->
+        <div class="group_on box m_10">
+            <div class="title"><h2>团购商品</h2><a class="more" href="{url:/site/groupon}">更多...</a></div>
+            <div class="cont">
+                <ul class="ranklist">
+
+                    {foreach:items=Api::run('getRegimentList',5)}
+                    <li class="current">
+                        {set:$tmpId=$item['id'];}
+                        <a href="{url:/site/groupon/id/$tmpId}"><img width="60px" height="60px" alt="{$item['title']}" src="{webroot:$item[img]}"></a>
+                        <a class="p_name" title="{$item['title']}" href="{url:/site/groupon/id/$tmpId}">{$item['title']}</a><p class="light_gray">团购价：<em>￥{$item['regiment_price']}</em></p>
+                    </li>
+                    {/foreach}
+
+                </ul>
+            </div>
+        </div>
+        <!--团购-->
+
+        <!--限时抢购-->
+        <div class="buying box m_10">
+            <div class="title"><h2>限时抢购</h2></div>
+            <div class="cont clearfix">
+                <ul class="prolist">
+                    {foreach:items=Api::run('getPromotionList',5)}
+                    {set:$free_time = ITime::getDiffSec($item['end_time'])}
+                    {set:$countNumsItem[] = $item['p_id'];}
+                    <li>
+                        <p class="countdown">倒计时:<br /><b id='cd_hour_{$item['p_id']}'>{echo:floor($free_time/3600);}</b>时<b id='cd_minute_{$item['p_id']}'>{echo:floor(($free_time%3600)/60);}</b>分<b id='cd_second_{$item['p_id']}'>{echo:$free_time%60;}</b>秒</p>
+                        {set:$tmpGoodsId=$item['goods_id'];$tmpPId=$item['p_id'];}
+                        <a href="{url:/site/products/id/$tmpGoodsId/promo/time/active_id/$tmpPId}"><img src="{url:/pic/thumb/img/$item[img]/w/175/h/175}" width="175" height="175" alt="{$item['name']}" title="{$item['name']}" /></a>
+                        <p class="pro_title"><a href="{url:/site/products/id/$tmpGoodsId/promo/time/active_id/$tmpPId}">{$item['name']}</a></p>
+                        <p class="light_gray">抢购价：<b>￥{$item['award_value']}</b></p>
+                        <div></div>
+                    </li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+        <!--限时抢购-->
+
+        <!--热卖商品-->
+        <div class="hot box m_10">
+            <div class="title"><h2>热卖商品</h2></div>
+            <div class="cont clearfix">
+                <ul class="prolist">
+                    {foreach:items=Api::run('getCommendHot',8)}
+                    {set:$tmpId=$item['id']}
+                    <li>
+                        <a href="{url:/site/products/id/$tmpId}"><img src="{url:/pic/thumb/img/$item[img]/w/85/h/85}" width="85" height="85" alt="{$item['name']}" /></a>
+                        <p class="pro_title"><a href="{url:/site/products/id/$tmpId}">{$item['name']}</a></p>
+                        <p class="brown"><b>￥{$item['sell_price']}</b></p>
+                    </li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+        <!--热卖商品-->
+
+        <!--公告通知-->
+        <div class="box m_10">
+            <div class="title"><h2>公告通知</h2><a class="more" href="{url:/site/notice}">更多...</a></div>
+            <div class="cont">
+                <ul class="list">
+                    {foreach:items=Api::run('getAnnouncementList',5)}
+                    {set:$tmpId=$item['id'];}
+                    <li><a href="{url:/site/notice_detail/id/$tmpId}">{$item['title']}</a></li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+        <!--公告通知-->
+
+        <!--促销规则-->
+        <div class="box m_10">
+            <div class="title"><h2>促销活动</h2></div>
+            <div class="cont">
+                <ul class="list">
+                    {foreach:items=Api::run('getProrule')}
+                    <li>{$item['info']}</li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+        <!--促销规则-->
+        <!--关键词-->
+        <div class="box m_10">
+            <div class="title"><h2>关键词</h2><a class="more" href="{url:/site/tags}">更多...</a></div>
+            <div class="tag cont t_l">
+                {foreach:items=Api::run('getKeywordList',5)}
+                {set:$searchWord =urlencode($item['word']);}
+                <a href="{url:/site/search_list/word/$searchWord}" class="orange">{$item['word']}</a>
+                {/foreach}
+            </div>
+        </div>
+        <!--关键词-->
+        <!--电子订阅-->
+        <div class="book box m_10">
+            <div class="title"><h2>电子订阅</h2></div>
+            <div class="cont">
+                <p>我们会将最新的资讯发到您的Email</p>
+                <input type="text" class="gray_m light_gray f_l" name='orderinfo' value="输入您的电子邮箱地址" />
+                <label class="btn_orange"><input type="button" onclick="orderinfo();" value="订阅" /></label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main f_l">
+    </div>
+</div>
+<script type='text/javascript'>
+    //dom载入完毕执行
+    jQuery(function()
+    {
+        //幻灯片开启
+        $('.bxslider').bxSlider({'mode':'fade','captions':true,'pager':false,'auto':true});
+
+        //index 分类展示
+        $('#index_category tr').hover(
+                function(){
+                    $(this).addClass('current');
+                },
+                function(){
+                    $(this).removeClass('current');
+                }
+        );
+
+        //email订阅 事件绑定
+        var tmpObj = $('input:text[name="orderinfo"]');
+        var defaultText = tmpObj.val();
+        tmpObj.bind({
+            focus:function(){checkInput($(this),defaultText);},
+            blur :function(){checkInput($(this),defaultText);}
+        });
+
+        //显示抢购倒计时
+        var cd_timer = new countdown();
+        {if:isset($countNumsItem) && $countNumsItem}
+        {foreach:items = $countNumsItem}
+        cd_timer.add({$item});
+        {/foreach}
+        {/if}
+
+            //首页商品变色
+            var colorArray = ['green','yellow','purple'];
+            $('div[name="showGoods"]').each(function(i)
+            {
+                $(this).addClass(colorArray[i%colorArray.length]);
+            });
+        });
+
+//电子邮件订阅
+        function orderinfo()
+        {
+            var email = $('[name="orderinfo"]').val();
+            if(email == '')
+            {
+                alert('请填写正确的email地址');
+            }
+            else
+            {
+                $.getJSON('{url:/site/email_registry}',{email:email},function(content){
+                    if(content.isError == false)
+                    {
+                        alert('订阅成功');
+                        $('[name="orderinfo"]').val('');
+                    }
+                    else
+                        alert(content.message);
+                });
+            }
+        }
+</script>
+<!--百度地图接口-->
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");            // 创建Map实例
+    map.centerAndZoom(new BMap.Point(116.404, 39.915), 12);
+    map.enableScrollWheelZoom(true);
+    var point = new BMap.Point(116.331398,39.897445);
+    map.centerAndZoom(point,12);
+    var busline = new BMap.BusLineSearch(map,{
+        renderOptions:{map:map,panel:"r-results"},
+        onGetBusListComplete: function(result){
+            if(result) {
+                var fstLine = result.getBusListItem(0);//获取第一个公交列表显示到map上
+                busline.getBusLine(fstLine);
+            }
+        }
+    });
+    function busSearch(){
+        var busName = 331;
+        busline.getBusList(busName);
+    }
+    setTimeout(function(){
+        busSearch();
+    },1500);
+    function G(id) {
+        return document.getElementById(id);
+    }
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");
+    map.centerAndZoom(new BMap.Point(116.328749,40.026922), 13);
+    map.enableScrollWheelZoom(true);
+    var point = new BMap.Point(116.331398,39.897445);
+    map.centerAndZoom(point,12);
+    // 创建地址解析器实例
+    var myGeo = new BMap.Geocoder();
+    // 将地址解析结果显示在地图上,并调整地图视野
+    myGeo.getPoint("{$this->userinfo['position']}", function(point){
+        if (point) {
+            map.centerAndZoom(point, 16);
+            map.addOverlay(new BMap.Marker(point));
+        }else{
+            alert("您选择地址没有解析到结果!");
+        }
+    }, "北京市");
+    var ac = new BMap.Autocomplete(    //建立一个自动完成的对象
+            {"input" : "suggestId"
+                ,"location" : map
+            });
+
+    ac.addEventListener("onhighlight", function(e) {  //鼠标放在下拉列表上的事件
+        var str = "";
+        var _value = e.fromitem.value;
+        var value = "";
+        if (e.fromitem.index > -1) {
+            value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+        }
+        str = "FromItem<br />index = " + e.fromitem.index + "<br />value = " + value;
+
+        value = "";
+        if (e.toitem.index > -1) {
+            _value = e.toitem.value;
+            value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+        }
+        str += "<br />ToItem<br />index = " + e.toitem.index + "<br />value = " + value;
+        G("searchResultPanel").innerHTML = str;
+    });
+
+    var myValue;
+    ac.addEventListener("onconfirm", function(e) {    //鼠标点击下拉列表后的事件
+        var _value = e.item.value;
+        myValue = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+        G("searchResultPanel").innerHTML ="onconfirm<br />index = " + e.item.index + "<br />myValue = " + myValue;
+
+        setPlace();
+    });
+
+    function setPlace() {
+        map.clearOverlays();    //清除地图上所有覆盖物
+        function myFun() {
+            var pp = local.getResults().getPoi(0).point;    //获取第一个智能搜索的结果
+            map.centerAndZoom(pp, 18);
+            map.addOverlay(new BMap.Marker(pp));    //添加标注
+        }
+
+        var local = new BMap.LocalSearch(map, { //智能搜索
+            onSearchComplete: myFun
+        });
+        local.search(myValue);
+    }
+</script>
+
+
+
+

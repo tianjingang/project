@@ -1,0 +1,107 @@
+<ERROR_BLOCK>
+errorInfo: move_uploaded_file(./video/14688895918813.mp4) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 246
+errorCode: 2
+errorTime: 2016-07-19 08:53:11
+#0 IWEB_PATH/controllers/goods.php(246): move_uploaded_file(C:/Users/HP/AppData/Local/Temp/php7BC9.tmp,./video/14688895918813.mp4)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\Users\HP\AppData\Local\Temp\php7BC9.tmp' to './video/14688895918813.mp4'
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 246
+errorCode: 2
+errorTime: 2016-07-19 08:53:11
+#0 IWEB_PATH/controllers/goods.php(246): move_uploaded_file(C:/Users/HP/AppData/Local/Temp/php7BC9.tmp,./video/14688895918813.mp4)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: file_get_contents(http://product.aircheng.com/index.php?_c=system&amp;_a=version) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+errorFile: IWEB_PATH/classes/proxy.php
+errorLine: 23
+errorCode: 2
+errorTime: 2016-07-19 10:08:14
+#0 IWEB_PATH/classes/proxy.php(23): file_get_contents(http://product.aircheng.com/index.php?_c=system&_a=version)
+#1 IWEB_PATH/classes/proxy.php(44): Proxy::send(_c=system&_a=version)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(79): Proxy::getRemoteVersion()
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: file_get_contents(http://product.aircheng.com/index.php?_c=system&amp;_a=version) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+errorFile: IWEB_PATH/classes/proxy.php
+errorLine: 23
+errorCode: 2
+errorTime: 2016-07-19 14:08:44
+#0 IWEB_PATH/classes/proxy.php(23): file_get_contents(http://product.aircheng.com/index.php?_c=system&_a=version)
+#1 IWEB_PATH/classes/proxy.php(44): Proxy::send(_c=system&_a=version)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(79): Proxy::getRemoteVersion()
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: file_get_contents(http://product.aircheng.com/index.php?_c=system&amp;_a=version) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+errorFile: IWEB_PATH/classes/proxy.php
+errorLine: 23
+errorCode: 2
+errorTime: 2016-07-19 14:08:59
+#0 IWEB_PATH/classes/proxy.php(23): file_get_contents(http://product.aircheng.com/index.php?_c=system&_a=version)
+#1 IWEB_PATH/classes/proxy.php(44): Proxy::send(_c=system&_a=version)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(79): Proxy::getRemoteVersion()
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: first
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 333
+errorCode: 8
+errorTime: 2016-07-19 14:38:48
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(56): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

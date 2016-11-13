@@ -1,0 +1,528 @@
+<ERROR_BLOCK>
+errorInfo: Undefined variable: manage_data
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 101
+errorCode: 8
+errorTime: 2016-08-19 10:35:01
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 360
+errorCode: 8
+errorTime: 2016-08-19 10:35:01
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 361
+errorCode: 8
+errorTime: 2016-08-19 10:35:01
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_video ( `id`,`video_name`,`price`,`start_time`,`video` ) VALUES ( '','stellar','268','2016-08-27','./video/14715756712793.mp4' ) 
+ -- Unknown column 'start_time' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 11:01:11
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_video ( `id`,`video_name`,`price`,`start_time`,`video` ) VALUES ( '','stellar','268','2016-08-27','./video/14715756712793.mp4' ) )
+#1 IWEB_PATH/controllers/ticket.php(39): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Ticket->movie_save()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_video ( `id`,`video_name`,`price`,`start_time`,`video` ) VALUES ( '','stellar','268','2016-08-27','./video/14715757219367.mp4' ) 
+ -- Unknown column 'start_time' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 11:02:01
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_video ( `id`,`video_name`,`price`,`start_time`,`video` ) VALUES ( '','stellar','268','2016-08-27','./video/14715757219367.mp4' ) )
+#1 IWEB_PATH/controllers/ticket.php(39): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Ticket->movie_save()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','4','37229','是','1034365','2016-08-19 11:10:35' ) 
+ -- Unknown column 'sell_id' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 11:10:35
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','4','37229','是','1034365','2016-08-19 11:10:35' ) )
+#1 IWEB_PATH/controllers/site.php(1086): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->movie_add()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','4','72872','是','1034321','2016-08-19 11:11:19' ) 
+ -- Unknown column 'sell_id' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 11:11:19
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','4','72872','是','1034321','2016-08-19 11:11:19' ) )
+#1 IWEB_PATH/controllers/site.php(1086): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->movie_add()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','4','75236','是','1034305','2016-08-19 11:11:35' ) 
+ -- Unknown column 'sell_id' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 11:11:35
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','4','75236','是','1034305','2016-08-19 11:11:35' ) )
+#1 IWEB_PATH/controllers/site.php(1086): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->movie_add()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','4','33469','是','1034131','2016-08-19 11:14:29' ) 
+ -- Unknown column 'sell_id' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 11:14:29
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','4','33469','是','1034131','2016-08-19 11:14:29' ) )
+#1 IWEB_PATH/controllers/site.php(1086): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->movie_add()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','4','91930','是','1034079','2016-08-19 11:15:21' ) 
+ -- Unknown column 'sell_id' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 11:15:21
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','4','91930','是','1034079','2016-08-19 11:15:21' ) )
+#1 IWEB_PATH/controllers/site.php(1086): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->movie_add()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: manage_data
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 101
+errorCode: 8
+errorTime: 2016-08-19 11:21:26
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 360
+errorCode: 8
+errorTime: 2016-08-19 11:21:26
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 361
+errorCode: 8
+errorTime: 2016-08-19 11:21:26
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: manage_data
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 101
+errorCode: 8
+errorTime: 2016-08-19 11:21:31
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 360
+errorCode: 8
+errorTime: 2016-08-19 11:21:31
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 361
+errorCode: 8
+errorTime: 2016-08-19 11:21:31
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','74363','是','634302','2016-08-19 15:48:18' ) 
+ -- Unknown column 'sell_id' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 15:48:18
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','74363','是','634302','2016-08-19 15:48:18' ) )
+#1 IWEB_PATH/controllers/site.php(1083): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->movie_add()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','37397','是','00-00-08 16:05:49','2016-08-19 15:54:11' ) 
+ -- Unknown column 'sell_id' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 15:54:11
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','37397','是','00-00-08 16:05:49','2016-08-19 15:54:11' ) )
+#1 IWEB_PATH/controllers/site.php(1083): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->movie_add()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','90587','是','00-00-08 16:02:21','2016-08-19 15:57:39' ) 
+ -- Unknown column 'sell_id' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 15:57:39
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','90587','是','00-00-08 16:02:21','2016-08-19 15:57:39' ) )
+#1 IWEB_PATH/controllers/site.php(1083): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->movie_add()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','36045','是','00-00-08 16:02:12','2016-08-19 15:57:48' ) 
+ -- Unknown column 'sell_id' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 15:57:48
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','36045','是','00-00-08 16:02:12','2016-08-19 15:57:48' ) )
+#1 IWEB_PATH/controllers/site.php(1083): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->movie_add()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','66184','是','00-00-08 16:00:16','2016-08-19 15:59:44' ) 
+ -- Unknown column 'sell_id' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 15:59:44
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','66184','是','00-00-08 16:00:16','2016-08-19 15:59:44' ) )
+#1 IWEB_PATH/controllers/site.php(1083): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->movie_add()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','16602','是','00-00-08 15:58:29','2016-08-19 16:01:31' ) 
+ -- Unknown column 'sell_id' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-19 16:01:31
+#0 IWEB_PATH/lib/web/model/model_class.php(113): IDB->query(INSERT INTO iwebshop_cinema ( `sell_id`,`seat`,`movie_id`,`tiaoma`,`flag`,`gqtime`,`createtime` ) VALUES ( '1','1_1,1_3,1_4','5','16602','是','00-00-08 15:58:29','2016-08-19 16:01:31' ) )
+#1 IWEB_PATH/controllers/site.php(1083): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->movie_add()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: manage_data
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 101
+errorCode: 8
+errorTime: 2016-08-19 20:53:26
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 360
+errorCode: 8
+errorTime: 2016-08-19 20:53:26
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 361
+errorCode: 8
+errorTime: 2016-08-19 20:53:26
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: manage_data
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 101
+errorCode: 8
+errorTime: 2016-08-19 20:56:25
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 360
+errorCode: 8
+errorTime: 2016-08-19 20:56:26
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 361
+errorCode: 8
+errorTime: 2016-08-19 20:56:26
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: strstr() [<a href='function.strstr'>function.strstr</a>]: Empty delimiter
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 222
+errorCode: 2
+errorTime: 2016-08-19 21:18:25
+#0 IWEB_PATH/controllers/simple.php(222): strstr(2016-08-18 11:05:18,)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->login_act()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: manage_data
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 101
+errorCode: 8
+errorTime: 2016-08-19 21:18:26
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 360
+errorCode: 8
+errorTime: 2016-08-19 21:18:26
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 361
+errorCode: 8
+errorTime: 2016-08-19 21:18:26
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+

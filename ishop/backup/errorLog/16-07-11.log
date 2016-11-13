@@ -1,0 +1,312 @@
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 08:58:22
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 411
+errorCode: 8
+errorTime: 2016-07-11 08:58:22
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:04:02
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:04:04
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:04:05
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:04:46
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:04:48
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:04:49
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:05:50
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:05:52
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:05:54
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:06:01
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:07:23
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:07:25
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:07:27
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:07:28
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:07:39
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:07:41
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:07:49
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:07:50
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:08:00
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:08:58
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:08:59
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sell_price
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 401
+errorCode: 8
+errorTime: 2016-07-11 09:09:00
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

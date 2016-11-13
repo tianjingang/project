@@ -1,0 +1,573 @@
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_goods_like left join iwebshop_goods on iwebshop_goods.id=iwebshop_goods_like.gid where iwebshop_goods_like.uid= limit 5   
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 5' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-08-10 07:56:22
+#0 IWEB_PATH/lib/core/query_class.php(171): IDB->query(select  * from iwebshop_goods_like left join iwebshop_goods on iwebshop_goods.id=iwebshop_goods_like.gid where iwebshop_goods_like.uid= limit 5   )
+#1 IWEB_PATH/controllers/site.php(49): IQuery->find()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 07:56:57
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 07:56:57
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 07:56:57
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 334
+errorCode: 2
+errorTime: 2016-08-10 07:56:58
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_user ( `username`,`password`,`email`,` position` ) VALUES ( '田金宝','a3c67e18df4d2a233a3c82673138af56','123456789@qq.com','北京市海淀区北京八维研修学院' ) 
+ -- Unknown column ' position' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-08-10 08:42:01
+#0 IWEB_PATH/lib/web/model/model_class.php(112): IDB->query(INSERT INTO iwebshop_user ( `username`,`password`,`email`,` position` ) VALUES ( '田金宝','a3c67e18df4d2a233a3c82673138af56','123456789@qq.com','北京市海淀区北京八维研修学院' ) )
+#1 IWEB_PATH/controllers/simple.php(139): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->reg_act()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 09:31:37
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 09:31:37
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 09:31:37
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 334
+errorCode: 2
+errorTime: 2016-08-10 09:31:37
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: strstr() [<a href='function.strstr'>function.strstr</a>]: Empty delimiter
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 221
+errorCode: 2
+errorTime: 2016-08-10 20:20:14
+#0 IWEB_PATH/controllers/simple.php(221): strstr(2016-08-08 20:07:04,)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->login_act()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/shequ/index.php
+errorLine: 323
+errorCode: 2
+errorTime: 2016-08-10 20:20:20
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/shequ/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/shequ/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/shequ/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/shequ/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/shequ.php(16): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Shequ->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 20:20:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 20:20:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 20:20:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 334
+errorCode: 2
+errorTime: 2016-08-10 20:20:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/shequ/index.php
+errorLine: 323
+errorCode: 2
+errorTime: 2016-08-10 21:11:21
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/shequ/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/shequ/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/shequ/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/shequ/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/shequ.php(16): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Shequ->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/shequ/index.php
+errorLine: 312
+errorCode: 2
+errorTime: 2016-08-10 21:41:37
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/shequ/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/shequ/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/shequ/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/shequ/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/shequ.php(22): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Shequ->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 21:41:52
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 21:41:52
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 21:41:52
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 334
+errorCode: 2
+errorTime: 2016-08-10 21:41:52
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/shequ/index.php
+errorLine: 312
+errorCode: 2
+errorTime: 2016-08-10 21:41:56
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/shequ/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/shequ/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/shequ/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/shequ/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/shequ.php(22): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Shequ->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: strstr() [<a href='function.strstr'>function.strstr</a>]: Empty delimiter
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 221
+errorCode: 2
+errorTime: 2016-08-10 21:47:11
+#0 IWEB_PATH/controllers/simple.php(221): strstr(2016-08-10 20:20:14,)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->login_act()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/shequ/index.php
+errorLine: 312
+errorCode: 2
+errorTime: 2016-08-10 21:47:11
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/shequ/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/shequ/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/shequ/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/shequ/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/shequ.php(22): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Shequ->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/shequ/index.php
+errorLine: 312
+errorCode: 2
+errorTime: 2016-08-10 21:47:18
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/shequ/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/shequ/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/shequ/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/shequ/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/shequ.php(22): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Shequ->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 21:47:24
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 21:47:24
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: url
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-08-10 21:47:24
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 334
+errorCode: 2
+errorTime: 2016-08-10 21:47:24
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(84): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/shequ/index.php
+errorLine: 312
+errorCode: 2
+errorTime: 2016-08-10 21:49:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/shequ/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/shequ/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/shequ/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/shequ/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/shequ.php(22): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Shequ->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+

@@ -1,0 +1,242 @@
+<ERROR_BLOCK>
+errorInfo: Undefined variable: manage_data
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 101
+errorCode: 8
+errorTime: 2016-08-23 07:33:40
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 360
+errorCode: 8
+errorTime: 2016-08-23 07:33:40
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 361
+errorCode: 8
+errorTime: 2016-08-23 07:33:40
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 360
+errorCode: 8
+errorTime: 2016-08-23 07:33:40
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 361
+errorCode: 8
+errorTime: 2016-08-23 07:33:40
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 360
+errorCode: 8
+errorTime: 2016-08-23 07:33:40
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 361
+errorCode: 8
+errorTime: 2016-08-23 07:33:40
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 360
+errorCode: 8
+errorTime: 2016-08-23 07:33:40
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: tmpId
+errorFile: IWEB_PATH/runtime/default/site/index.php
+errorLine: 361
+errorCode: 8
+errorTime: 2016-08-23 07:33:40
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/site/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/site/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/site/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/site/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/site.php(114): IController->redirect(index)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: SELECT * FROM iwebshop_order WHERE select sum(real_amount) from order where create_time>2016-08-23 00:00:00 and completion_time<2016-08-23 23:59:59 limit 50000
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select sum(real_amount) from order where create_time>2016-08-23 00:00:00 and com' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-08-23 09:00:57
+#0 IWEB_PATH/lib/web/model/model_class.php(190): IDB->query(SELECT * FROM iwebshop_order WHERE select sum(real_amount) from order where create_time>2016-08-23 00:00:00 and completion_time<2016-08-23 23:59:59 limit 50000)
+#1 IWEB_PATH/controllers/simple.php(1013): IModel->query(select sum(real_amount) from order where create_time>2016-08-23 00:00:00 and completion_time<2016-08-23 23:59:59)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart3()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: SELECT SUM(real_amount) FROM iwebshop_order WHERE create_time>$start_time and completion_time<$end_time limit 50000
+ -- Unknown column '$start_time' in 'where clause'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-08-23 10:59:52
+#0 IWEB_PATH/lib/web/model/model_class.php(191): IDB->query(SELECT SUM(real_amount) FROM iwebshop_order WHERE create_time>$start_time and completion_time<$end_time limit 50000)
+#1 IWEB_PATH/controllers/simple.php(1013): IModel->query(create_time>$start_time and completion_time<$end_time,SUM(real_amount))
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart3()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: SELECT SUM(real_amount) FROM iwebshop_order WHERE create_time>$start_time and completion_time<$end_time limit 50000
+ -- Unknown column '$start_time' in 'where clause'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-08-23 11:00:20
+#0 IWEB_PATH/lib/web/model/model_class.php(191): IDB->query(SELECT SUM(real_amount) FROM iwebshop_order WHERE create_time>$start_time and completion_time<$end_time limit 50000)
+#1 IWEB_PATH/controllers/simple.php(1013): IModel->query(create_time>$start_time and completion_time<$end_time,SUM(real_amount))
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart3()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: SELECT SUM(real_amount) FROM iwebshop_order WHERE create_time>2016-08-23 00:00:00 and completion_time<2016-08-23 23:59:59 limit 50000
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '00:00:00 and completion_time<2016-08-23 23:59:59 limit 50000' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-08-23 11:01:07
+#0 IWEB_PATH/lib/web/model/model_class.php(191): IDB->query(SELECT SUM(real_amount) FROM iwebshop_order WHERE create_time>2016-08-23 00:00:00 and completion_time<2016-08-23 23:59:59 limit 50000)
+#1 IWEB_PATH/controllers/simple.php(1013): IModel->query(create_time>2016-08-23 00:00:00 and completion_time<2016-08-23 23:59:59,SUM(real_amount))
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart3()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: order_id
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 1017
+errorCode: 8
+errorTime: 2016-08-23 12:57:15
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->cart3()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(8): IApplication->run()
+</ERROR_BLOCK>
+

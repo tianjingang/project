@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<form action='{url:/ucenter/doinvite}' method='post'>
+    请输入您要邀请的好友邮箱
+    <input class="gray" type="text" name='email' placeholder="输入邀请人邮箱 多邮箱请用英文;分号隔开"  alt="填写正确的邮箱格式" />
+    <input type="hidden" name='callback' />
+    <input type="submit" value="邀请" />
+    <p>邀请成功累计人数:{$num}</p>
+</form>
+</body>
+</html>

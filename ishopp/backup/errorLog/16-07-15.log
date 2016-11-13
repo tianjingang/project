@@ -1,0 +1,100 @@
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) 
+ -- Table 'ishop.iwebshop_iwebshop_ad_city' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-07-15 08:23:14
+#0 IWEB_PATH/lib/web/model/model_class.php(111): IDB->query(INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) )
+#1 IWEB_PATH/controllers/system.php(348): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): System->save_conf()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) 
+ -- Table 'ishop.iwebshop_iwebshop_ad_city' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-07-15 16:27:02
+#0 IWEB_PATH/lib/web/model/model_class.php(111): IDB->query(INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) )
+#1 IWEB_PATH/controllers/system.php(347): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): System->save_conf()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) 
+ -- Table 'ishop.iwebshop_iwebshop_ad_city' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-07-15 16:27:47
+#0 IWEB_PATH/lib/web/model/model_class.php(111): IDB->query(INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) )
+#1 IWEB_PATH/controllers/system.php(347): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): System->save_conf()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: result
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 31
+errorCode: 8
+errorTime: 2016-07-15 16:52:01
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: result
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 31
+errorCode: 8
+errorTime: 2016-07-15 16:52:07
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: result
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 31
+errorCode: 8
+errorTime: 2016-07-15 16:59:35
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: result
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 31
+errorCode: 8
+errorTime: 2016-07-15 20:15:29
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->index()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

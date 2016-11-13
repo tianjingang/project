@@ -1,0 +1,96 @@
+{js:kindeditor}
+{js:my97date}
+<div class="headbar">
+	<div class="position"><span>商品</span><span>></span><span>商品分类管理</span><span>></span><span>编辑分类</span></div>
+</div>
+<div class="content_box">
+	<div class="content form_content">
+		<form action="{url:/ticket/movie_save}" method="post" enctype="multipart/form-data">
+			<input name="id" value="" type="hidden" />
+			<table class="form_table" cellpadding="0" cellspacing="0">
+				<colgroup>
+					<col width="150px" />
+					<col />
+				</colgroup>
+                <tr>
+					<th>电影名称：</th>
+					<td>
+						<input class="normal" name="video_name" type="text" value="" pattern="required" alt="电影名称不能为空" /><label>* 必选项</label>
+					</td>
+				</tr>
+                <tr>
+                    <th>电影内容：</th>
+                    <td>
+                        <input type="file" name="video"/><label>* 必选项</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>电影价格：</th>
+                    <td>
+                        <input class="normal" name="price" type="text" value="" pattern="required" alt="电影价格不能为空" /><label>* 必选项</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>上映时间：</th>
+                    <td>
+                        <input type='text' class='Wdate' onfocus='WdatePicker()' name='watch_time' pattern='date' /> <!--～
+						<input type='text' class='Wdate' onfocus='WdatePicker()' name='end_time' pattern='date' />-->
+                        <label>*上映时间（必选）</label>
+                    </td>
+                </tr>
+				<tr>
+					<td></td><td><button class="submit" type="submit"><span>确 定</span></button></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
+
+<!--
+<script type="text/javascript">
+$(function()
+{
+	var formObj = new Form();
+	formObj.init({echo:JSON::encode($this->categoryRow)});
+})
+//商品分类回填
+{if:isset($this->categoryRow['parent_id'])}
+{set:$categoryId = $this->categoryRow['parent_id']}
+{query:name=category items=$categoryData where=id in ($categoryId)}{/query}
+createGoodsCategory({echo:JSON::encode($categoryData)});
+{/if}
+</script>-->
+
+<script type='text/javascript'>
+    //广告数据
+    defaultAdRow = {echo:JSON::encode($this->adRow)};
+
+    //表单回显
+    var FromObj = new Form('ad');
+    FromObj.init(defaultAdRow);
+
+    //单选按钮点击绑定
+    $('input:radio[name="type"]').each(
+            function(i){$(this).click(function(){changeType(i+1);});}
+    );
+
+    //切换广告类型 1:图片; 2:flash; 3:文字; 4:代码;
+    function changeType(typeVal)
+    {
+        var content = (defaultAdRow && typeVal == defaultAdRow['type']) ? defaultAdRow['content'] : "";
+        var defaultType = (defaultAdRow && defaultAdRow['type']) ? defaultAdRow['type'] : "";
+        var adHtml = template.render('adTemplate',{'newType':typeVal,'defaultType':defaultType,'content':content});
+        $('#ad_box').html(adHtml);
+    }
+
+    //商品分类回填
+    {if:isset($this->adRow['goods_cat_id'])}
+    {set:$categoryId = $this->adRow['goods_cat_id']}
+    {query:name=category items=$categoryData where=id in ($categoryId)}{/query}
+    createGoodsCategory({echo:JSON::encode($categoryData)});
+    {/if}
+
+        $("[name='type']:checked").click();
+</script>
+
+

@@ -1,0 +1,93 @@
+<div class="headbar">
+    <div class="position">会员购物信息统计<span>></span></div>
+</div>
+
+<form name="orderForm" id="orderForm" action="{url:/order/order_del}" method="post">
+    <div class="content">
+        <center>
+        <h1 style="font-size: 30px;">会员购物信息统计</h1>
+        <table border="1">
+            <tr>
+                <td>会员类型</td>
+                <td>普通会员</td>
+                <td>VIP</td>
+                <td>商家</td>
+            </tr>
+            <tr>
+                <td>会员总数</td>
+                <td>{$this->p_num}</td>
+                <td>{$this->V_num}</td>
+                <td>{$this->ss_num}</td>
+            </tr>
+            <tr>
+                <td>购买商品金额</td>
+                <td>{$this->pp_amount}</td>
+                <td>{$this->VV_amount}</td>
+                <td>{$this->ss_amount}</td>
+            </tr>
+        </table></center>
+<!--
+        <table class="list_table">
+            <colgroup>
+                <col width="30px" />
+                <col width="160px" />
+                <col width="70px" />
+                <col width="75px" />
+                <col width="75px" />
+                <col width="75px" />
+                <col width="115px" />
+                <col width="70px" />
+                <col width="90px" />
+                <col />
+            </colgroup>
+            <tbody>
+            {foreach:items = $this->arr}
+            <tr>
+                <td class="t_c"><input name="id[]" type="checkbox" value="{$item['id']}" /></td>
+                <td title="{$item['time']}">{$item['time']}</td>
+                <td title="{$item['zong']}">{$item['zong']}</td>
+                <td title="{$item['ru']}">{$item['ru']}</td>
+                <td>
+                    <a href="{url:/order/order_show/id/$item[id]}"><img class="operator" src="{skin:images/admin/icon_check.gif}" title="查看" /></a>
+                    {if:Order_class::getOrderStatus($item) < 3}
+                    <a href="{url:/order/order_edit/id/$item[id]}"><img class="operator" src="{skin:images/admin/icon_edit.gif}" title="编辑"/></a>
+                    {/if}
+                    <a href="javascript:void(0)" onclick="delModel({link:'{url:/order/order_del/id/$item[id]}'})" ><img class="operator" src="{skin:images/admin/icon_del.gif}" title="删除"/></a>
+
+                    {if:$item['seller_id']}
+                    <a href="{url:/site/home/id/$item[seller_id]}" target="_blank"><img src="{skin:images/admin/seller_ico.png}" /></a>
+                    {/if}
+                </td>
+            </tr>
+            {/foreach}
+            </tbody>
+        </table>
+-->
+    </div>
+
+</form>
+
+<script type='text/javascript'>
+    //DOM加载结束
+    $(function(){
+        var searchData = {echo:JSON::encode($this->search)};
+    for(var index in searchData)
+    {
+        $('[name="search['+index+']"]').val(searchData[index]);
+    }
+
+    //高亮色彩
+    $('[name="payStatusColor1"]').addClass('green');
+    $('[name="disStatusColor1"]').addClass('green');
+    });
+    function changeAction(excel)
+    {
+        if (excel){
+            $("input[name=\"action\"]").val("order_report");
+            $("form[name=\"order_list\"]").attr("target", "_blank");
+        }else{
+            $("input[name=\"action\"]").val("order_list");
+            $("form[name=\"order_list\"]").attr("target", "_self");
+        }
+    }
+</script>

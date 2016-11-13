@@ -1,0 +1,768 @@
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:28
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-8,60,61,1789621,IWEB_PATH/lib/core/util/font.ttf,a)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(auseq)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(auseq)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:28
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-6,6,61,1789621,IWEB_PATH/lib/core/util/font.ttf,u)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(auseq)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(auseq)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:28
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,6,6,61,1789621,IWEB_PATH/lib/core/util/font.ttf,s)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(auseq)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(auseq)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:28
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-8,6,61,1789621,IWEB_PATH/lib/core/util/font.ttf,e)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(auseq)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(auseq)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:28
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,4,6,61,1789621,IWEB_PATH/lib/core/util/font.ttf,q)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(auseq)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(auseq)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:44
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,1,60,61,14033927,IWEB_PATH/lib/core/util/font.ttf,g)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(giyig)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(giyig)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:44
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,4,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,i)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(giyig)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(giyig)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:44
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,3,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,y)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(giyig)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(giyig)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:44
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,8,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,i)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(giyig)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(giyig)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:44
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,5,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,g)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(giyig)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(giyig)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:47
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,0,60,61,14033927,IWEB_PATH/lib/core/util/font.ttf,a)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(aujoy)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(aujoy)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:47
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,0,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,u)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(aujoy)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(aujoy)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:47
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-1,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,j)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(aujoy)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(aujoy)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:47
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,6,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,o)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(aujoy)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(aujoy)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:47
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-2,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,y)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(aujoy)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(aujoy)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:48
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-6,60,61,14033927,IWEB_PATH/lib/core/util/font.ttf,e)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(eeiti)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(eeiti)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:48
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,4,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,e)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(eeiti)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(eeiti)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:48
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-8,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,i)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(eeiti)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(eeiti)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:48
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-2,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,t)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(eeiti)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(eeiti)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:48
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,1,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,i)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(eeiti)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(eeiti)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:48
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,5,60,61,14033927,IWEB_PATH/lib/core/util/font.ttf,i)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(iavet)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(iavet)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:48
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,8,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,a)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(iavet)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(iavet)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:48
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,8,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,v)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(iavet)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(iavet)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:48
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,0,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,e)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(iavet)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(iavet)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:48
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-3,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,t)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(iavet)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(iavet)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:49
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-4,60,61,14033927,IWEB_PATH/lib/core/util/font.ttf,h)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(hifas)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(hifas)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:49
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-3,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,i)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(hifas)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(hifas)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:49
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-8,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,f)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(hifas)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(hifas)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:49
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-8,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,a)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(hifas)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(hifas)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:49
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-7,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,s)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(hifas)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(hifas)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:50
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-8,60,61,1483555,IWEB_PATH/lib/core/util/font.ttf,o)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(oyehe)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(oyehe)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:50
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,6,6,61,1483555,IWEB_PATH/lib/core/util/font.ttf,y)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(oyehe)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(oyehe)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:50
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-5,6,61,1483555,IWEB_PATH/lib/core/util/font.ttf,e)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(oyehe)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(oyehe)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:50
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-4,6,61,1483555,IWEB_PATH/lib/core/util/font.ttf,h)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(oyehe)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(oyehe)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:50
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,0,6,61,1483555,IWEB_PATH/lib/core/util/font.ttf,e)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(oyehe)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(oyehe)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:52
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-5,60,61,14033927,IWEB_PATH/lib/core/util/font.ttf,a)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(awowu)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(awowu)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:52
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-1,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,w)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(awowu)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(awowu)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:52
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,3,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,o)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(awowu)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(awowu)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:52
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-6,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,w)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(awowu)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(awowu)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 18:45:52
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-8,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,u)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(awowu)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(awowu)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 21:18:27
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-4,60,61,14033927,IWEB_PATH/lib/core/util/font.ttf,h)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(heouy)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(heouy)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 21:18:27
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,8,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,e)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(heouy)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(heouy)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 21:18:27
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-8,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,o)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(heouy)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(heouy)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 21:18:27
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,-6,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,u)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(heouy)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(heouy)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Problem loading glyph
+errorFile: IWEB_PATH/lib/core/util/captcha_class.php
+errorLine: 245
+errorCode: 2
+errorTime: 2016-07-14 21:18:27
+#0 IWEB_PATH/lib/core/util/captcha_class.php(245): imagettftext(48,3,6,61,14033927,IWEB_PATH/lib/core/util/font.ttf,y)
+#1 IWEB_PATH/lib/core/util/captcha_class.php(101): Captcha->WriteText(heouy)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(72): Captcha->CreateImage(heouy)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): IController->getCaptcha()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) 
+ -- Table 'ishop.iwebshop_iwebshop_ad_city' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-07-14 21:48:31
+#0 IWEB_PATH/lib/web/model/model_class.php(111): IDB->query(INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) )
+#1 IWEB_PATH/controllers/system.php(348): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): System->save_conf()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) 
+ -- Table 'ishop.iwebshop_iwebshop_ad_city' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-07-14 21:58:06
+#0 IWEB_PATH/lib/web/model/model_class.php(111): IDB->query(INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) )
+#1 IWEB_PATH/controllers/system.php(348): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): System->save_conf()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) 
+ -- Table 'ishop.iwebshop_iwebshop_ad_city' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-07-14 21:58:14
+#0 IWEB_PATH/lib/web/model/model_class.php(111): IDB->query(INSERT INTO iwebshop_iwebshop_ad_city ( `name`,`url`,`img`,`city` ) VALUES ( '新设计，新内核，新起点','http://www.jooyea.cn','upload/2011/06/07/20110607105300491.png','北京' ) )
+#1 IWEB_PATH/controllers/system.php(348): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): System->save_conf()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
