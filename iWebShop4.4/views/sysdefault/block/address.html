@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>使用代金券</title>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	{js:form}
+	{js:jquery}
+	{js:dialog}
+	{js:artTemplate}
+	{js:validate}
+	<script type='text/javascript' src='{theme:javascript/artTemplate/area_select.js}'></script>
+	<style type="text/css">
+		.valid-msg{display:none;line-height:0px}
+	</style>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<form action="{url:/simple/address_add}" method="post" name="addressForm" callback="formCallback();" class="form-horizontal">
+		<input type="hidden" name="id" />
+
+		<div class="form-group form-group-sm">
+			<label class="col-xs-3 control-label">姓名</label>
+			<div class="col-xs-9">
+				<input class="form-control" type="text" name="accept_name" pattern='required' alt='姓名不能为空' />
+			</div>
+		</div>
+
+		<div class="form-group form-group-sm">
+			<label class="col-xs-3 control-label">省份</label>
+			<div class="col-xs-9">
+				<select class="form-control" name="province" child="city,area" onchange="areaChangeCallback(this);"></select>
+				<select class="form-control" name="city" child="area" parent="province" onchange="areaChangeCallback(this);"></select>
+				<select class="form-control" name="area" parent="city" pattern="required" alt="请选择收货地区"></select>
+			</div>
+		</div>
+
+		<div class="form-group form-group-sm">
+			<label class="col-xs-3 control-label">地址</label>
+			<div class="col-xs-9">
+				<input class="form-control" name='address' type="text" alt='地址不能为空' pattern='required' />
+			</div>
+		</div>
+
+		<div class="form-group form-group-sm">
+			<label class="col-xs-3 control-label">手机</label>
+			<div class="col-xs-9">
+				<input class="form-control" name='mobile' type="text" pattern='mobi' alt='格式不正确' />
+			</div>
+		</div>
+
+		<div class="form-group form-group-sm">
+			<label class="col-xs-3 control-label">固话</label>
+			<div class="col-xs-9">
+				<input class="form-control" type="text" pattern='phone' name='telphone' empty alt='格式不正确' />
+			</div>
+		</div>
+
+		<div class="form-group form-group-sm">
+			<label class="col-xs-3 control-label">邮编</label>
+			<div class="col-xs-9">
+				<input class="form-control" name='zip' empty type="text" pattern='zip' alt='格式不正确' />
+			</div>
+		</div>
+
+		</form>
+	</div>
+</body>
+
+<script type='text/javascript'>
+jQuery(function()
+{
+	//初始化地域联动
+	template.compile("areaTemplate",areaTemplate);
+
+	{if:$this->addressRow}
+		{set:$area = array($this->addressRow['province'],$this->addressRow['city'],$this->addressRow['area'])}
+		createAreaSelect('province',0,"{$area[0]}");
+		createAreaSelect('city',"{$area[0]}","{$area[1]}");
+		createAreaSelect('area',"{$area[1]}","{$area[2]}");
+
+		var formObj = new Form('addressForm');
+		formObj.init({echo:JSON::encode($this->addressRow)});
+	{else:}
+		createAreaSelect('province',0,"");
+	{/if}
+})
+
+/**
+ * 生成地域js联动下拉框
+ * @param name
+ * @param parent_id
+ * @param select_id
+ */
+function createAreaSelect(name,parent_id,select_id)
+{
+	//生成地区
+	$.getJSON("{url:/block/area_child}",{"aid":parent_id,"random":Math.random()},function(json)
+	{
+		$('[name="'+name+'"]').html(template.render('areaTemplate',{"select_id":select_id,"data":json}));
+	});
+}
+
+function formCallback()
+{
+	return false;
+}
+</script>
+</html>

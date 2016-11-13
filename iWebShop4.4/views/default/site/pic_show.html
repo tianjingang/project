@@ -1,0 +1,76 @@
+{set:$siteConfig=new Config("site_config");$id=IFilter::act(IReq::get('id'),'int');}
+{set:$item = Api::run('getGoodsInfo',array('#id#',$id))}
+{if:!$item}{set:IError::show(403,'商品信息不存在')}{/if}
+{set:$photo = Api::run('getGoodsPhotoRelationList',array('#id#',$id))}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>{echo:$siteConfig->name}</title>
+	<link type="image/x-icon" href="{webroot:favicon.ico}" rel="icon">
+	{js:jquery}
+	<link rel="stylesheet" href="{skin:css/index.css}" />
+	<link rel="stylesheet" type="text/css" href="{theme:javascript/jquery.bxSlider/jquery.bxslider.css}" />
+	<script type="text/javascript" src="{theme:javascript/jquery.bxSlider/jquery.bxSlider.min.js}"></script>
+</head>
+<body>
+
+<div style="width: 960px;margin: 0 auto;">
+	<div class="header" style="border-bottom:1px solid #ccc;margin-bottom:10px">
+		<h1 class="logo"><a title="{echo:$siteConfig->name}" href="{url:}">{echo:$siteConfig->name}</a></h1>
+	</div>
+
+	<ul class="pic_thumb">
+		{foreach:items=$photo}
+		<li>
+			<a href='javascript:changeImage("{$item['img']}");'>
+				<img src='{url:/pic/thumb/img/$item[img]/w/60/h/60}' width="60px" height="60px" />
+			</a>
+		</li>
+		{/foreach}
+	</ul>
+
+	<div style="padding:15px 0px 15px 0px;margin: 0 auto;">
+		<img src="{skin:images/front/nopic_435_435.gif}" id="bigImg" style="width:570px;" />
+	</div>
+</div>
+
+<div class="footer">
+	{echo:IFilter::stripSlash($siteConfig->site_footer_code)}
+</div>
+
+<script language="javascript">
+//切换图片
+function changeImage(img)
+{
+	$('#bigImg').attr("src",img);
+}
+
+//图片初始化
+var goodsBigPic   = "{skin:images/front/nopic_435_435.gif}";
+
+//存在图片数据时候
+{if:isset($photo) && $photo}
+goodsBigPic   = "{webroot:$photo[0]['img']}";
+{/if}
+
+//初始化商品轮换图
+$('.pic_thumb').bxSlider({
+	infiniteLoop: false,
+	hideControlOnEnd: true,
+	pager:false,
+	minSlides: 25,
+	maxSlides: 25,
+	slideWidth: 72,
+	slideMargin: 15,
+	controls:true,
+	onSliderLoad:function(currentIndex){
+		//设置图片
+		$('#bigImg').attr('src',goodsBigPic);
+	}
+});
+</script>
+
+</body>
+</html>
