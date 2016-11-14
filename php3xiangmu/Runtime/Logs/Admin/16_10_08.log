@@ -1,0 +1,62 @@
+[ 2016-10-08T19:36:17+08:00 ] ::1 /php3xiangmu/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.044149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.565154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.565250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003380s ]
+
+[ 2016-10-08T19:36:19+08:00 ] ::1 /php3xiangmu/index.php/Admin/Login/verify/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003693s ]
+
+[ 2016-10-08T19:36:24+08:00 ] ::1 /php3xiangmu/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002300s ]
+
+[ 2016-10-08T19:36:24+08:00 ] ::1 /php3xiangmu/index.php/Admin/Login/verify/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003174s ]
+

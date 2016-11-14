@@ -1,0 +1,36 @@
+<center>
+<div id="div1">
+    <input type="search" name="search" value="{$search}" placeholder="请输入影视名字关键字"/><button onclick="search()">搜索</button>
+    <table border="1">
+        <tr>
+            <td>序号</td>
+            <td>评论分数</td>
+            <td>评论内容</td>
+            <td>评论影名</td>
+        </tr>
+        <volist name="arr" id="val">
+            <tr>
+                <td>{$val.id}</td>
+                <td>{$val.ping_num}</td>
+                <td>{$val.ping_han}</td>
+                <td>{$val.ping_name}</td>
+            </tr>
+        </volist>
+    </table>
+    {$show}
+</div>
+    </center>
+<script>
+    function search(){
+        var search = document.getElementsByName('search')[0].value;
+        var ajax = new XMLHttpRequest();
+        ajax.open('get',"__URL__/ping_fs/search/"+search);
+        ajax.send();
+        ajax.onreadystatechange = function () {
+            if(ajax.readyState == 4&& ajax.status == 200){
+                document.getElementById('div1').innerHTML = ajax.responseText;
+            }
+        }
+    }
+</script>
+

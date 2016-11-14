@@ -1,0 +1,25 @@
+<center>
+<form action="__URL__/photo_update/" method="post" enctype="multipart/form-data">
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>类型</td>
+            <td>名字</td>
+            <td>电影封面</td>
+            <td>操作</td>
+        </tr>
+        <volist name="arr" id="val">
+            <tr>
+                <td>{$val.id}</td>
+                <td>{$val.v_type}</td>
+                <td>{$val.v_name}</td>
+                <td><img src="__ROOT__/{$val.photo}" height="80" width="80"/></td>
+                <td><a href="__URL__/photo_ress/id/{$val.id}">放入回收站</a>
+                    <a href="__URL__/photo_one/id/{$val.id}">修改</a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+</form>
+{$show}
+</center>

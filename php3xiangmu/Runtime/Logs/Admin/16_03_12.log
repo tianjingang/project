@@ -1,0 +1,215 @@
+[ 2016-03-12T19:06:32+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009210s ]
+
+[ 2016-03-12T19:06:32+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Login/verify/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2016-03-12T19:06:53+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Login/verify/0.5959519622826079
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2016-03-12T19:06:55+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Login/verify/0.046154251381942735
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-03-12T19:06:56+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Login/verify/0.07942503251928223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-03-12T19:06:57+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Login/verify/0.26700218935619613
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-03-12T19:07:09+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Login/login_check/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::add() should be compatible with that of Think\Model::add() D:\web\apache\htdocs\php3xiangmu\Apps\Admin\Model\LoginModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0548s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `login` WHERE ( username='田金刚' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0067s ]
+SQL: UPDATE `login` SET `Last_time`='2016-03-08 14:24:24',`Login_time`='2016-03-12 19:07:08',`Last_ip`='127.0.0.1' WHERE ( id=1 ) [ RunTime:0.0554s ]
+NOTIC: [8] Undefined index: Last_time D:\web\apache\htdocs\php3xiangmu\Apps\Admin\Controller\LoginController.class.php 第 68 行.
+NOTIC: [8] Undefined index: login_ip D:\web\apache\htdocs\php3xiangmu\Apps\Admin\Controller\LoginController.class.php 第 70 行.
+
+[ 2016-03-12T19:07:10+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-03-12T19:07:10+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Index/admin_top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::add() should be compatible with that of Think\Model::add() D:\web\apache\htdocs\php3xiangmu\Apps\Admin\Model\LoginModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `login` WHERE ( username='田金刚' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-03-12T19:07:10+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002559s ]
+
+[ 2016-03-12T19:07:10+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-03-12T19:07:10+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Index/images/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+ERR: 非法操作:images
+
+[ 2016-03-12T19:07:10+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Index/images/g.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-03-12T19:07:17+08:00 ] 127.0.0.1 /php3xiangmu/index.php/Admin/Index/wmv_show/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [2048] Declaration of Admin\Model\WmvModel::delete() should be compatible with that of Think\Model::delete() D:\web\apache\htdocs\php3xiangmu\Apps\Admin\Model\WmvModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Admin\Model\WmvModel::select() should be compatible with that of Think\Model::select() D:\web\apache\htdocs\php3xiangmu\Apps\Admin\Model\WmvModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Admin\Model\WmvModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\php3xiangmu\Apps\Admin\Model\WmvModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wmv` [ RunTime:0.0319s ]
+SQL: SHOW COLUMNS FROM `wmv` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wmv`  [ RunTime:0.0264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003663s ]
+

@@ -1,0 +1,38 @@
+<center>
+    <div id="div1">
+    类型:<input type="search" name="search" value="{$search}" placeholder="请输入类型关键字"/>
+        名字:<input type="search" name="search1" value="{$search1}" placeholder="请输入名字关键字"/>
+        <button onclick="search()">搜索</button>
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>类型</td>
+            <td>名字</td>
+            <td>电影封面</td>
+        </tr>
+        <volist name="arr" id="val">
+            <tr>
+                <td>{$val.id}</td>
+                <td>{$val.v_type}</td>
+                <td>{$val.v_name}</td>
+                <td><img src="__ROOT__/{$val.photo}" height="80" width="80"/></td>
+            </tr>
+        </volist>
+    </table>
+{$show}
+    </div>
+<script>
+    function search(){
+        var search = document.getElementsByName('search')[0].value;
+        var search1 = document.getElementsByName('search1')[0].value;
+        var ajax = new XMLHttpRequest();
+        ajax.open('get',"__URL__/search_p/search/"+search+'/search1/'+search1);
+        ajax.send();
+        ajax.onreadystatechange = function () {
+            if(ajax.readyState == 4&& ajax.status == 200){
+                document.getElementById('div1').innerHTML = ajax.responseText;
+            }
+        }
+    }
+</script>
+    </center>

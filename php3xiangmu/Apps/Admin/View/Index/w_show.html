@@ -1,0 +1,40 @@
+<form action="__URL__/wmv_show/" method="post" enctype="multipart/form-data">
+    <div id="div">
+    <table border="0">
+
+        <tr>
+            <volist name="arr" id="val" key="key">
+                <th>
+                    序号{$val.id}<br/>
+                    影视名称{$val.w_name}<br/>
+                    影视内容<br/><video src="__ROOT__{$val.w_wmv}" controls  width="200" height="100"></video><br/>
+                    热度指数{$val.w_row}<br/>
+                    观看次数{$val.w_count}<br/>
+                    是否推荐{$val.w_controduct}<br/>
+                    片长时间{$val.w_time}<br/>
+                    主演人{$val.w_man}<br/>
+                    <a href="__URL__/del/id/{$val.id}">删除</a>&nbsp;&nbsp;&nbsp;<a href="javascript:del({$val.id})">ajax删除</a>
+                </th>
+                <if condition="($key+1)%3 eq 1">
+        </tr>
+        </if>
+            </volist>
+    </table>
+        </div>
+</form>
+<script>
+    function del(id){
+
+        var ajax = new XMLHttpRequest();
+        ajax.open('get',"__URL__/del/id/"+id);
+        ajax.send();
+        ajax.onreadystatechange = function () {
+            if(ajax.readyState == 4&& ajax.status == 200 ){
+                document.getElementById('div').innerHTML=ajax.responseText;
+            }
+        }
+
+    }
+</script>
+
+

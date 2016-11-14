@@ -1,0 +1,23 @@
+<center>
+<h1 style="color: red">评论回收站</h1>
+<table border="1">
+    <tr>
+        <td>ID</td>
+        <td>评论分数</td>
+        <td>评论内容</td>
+        <td>评论的电影名</td>
+        <td>操作</td>
+    </tr>
+    <volist name="arr" id="val">
+        <tr>
+            <td>{$val.id}</td>
+            <td>{$val.ping_num}</td>
+            <td>{$val.ping_han}</td>
+            <td>{$val.ping_name}</td>
+            <td><a href="__URL__/ping_hf/id/{$val.id}">恢复</a>
+                <a href="__URL__/ping_del/id/{$val.id}">彻底删除</a>
+            </td>
+        </tr>
+    </volist>
+</table>
+    </center>

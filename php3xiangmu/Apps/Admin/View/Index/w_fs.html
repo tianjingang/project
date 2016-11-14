@@ -1,0 +1,48 @@
+<center>
+    <div id="div1">
+        <input type="search" name="search" value="{$search}" placeholder="请输入主演人名字关键字"/>
+        <input type="search" name="search1" value="{$search1}" placeholder="请输入电影名字关键字"/>
+        <button onclick="search()">搜索</button>
+    <table border="1">
+        <tr>
+            <td>序号</td>
+            <td>影视名称</td>
+            <td>影视内容</td>
+            <td>热度指数</td>
+            <td>观看次数</td>
+            <td>是否推荐</td>
+            <td>片长时间</td>
+            <td>主演人</td>
+        </tr>
+        <volist name="arr" id="val">
+            <tr>
+                <td>{$val.id}</td>
+                <td>{$val.w_name}</td>
+                <td><video src="__ROOT__{$val.w_wmv}" controls  width="200" height="100"></video>
+                </td>
+                <td>{$val.w_row}</td>
+                <td>{$val.w_count}</td>
+                <td>{$val.w_controduct}</td>
+                <td>{$val.w_time}</td>
+                <td>{$val.w_man}</td>
+            </tr>
+        </volist>
+    </table>
+{$show}
+    </div>
+    </center>
+<script>
+    function search(){
+        var search = document.getElementsByName('search')[0].value;
+        var search1 = document.getElementsByName('search1')[0].value;
+        var ajax = new XMLHttpRequest();
+        ajax.open('get',"__URL__/search_w/search/"+search+'/search1/'+search1);
+        ajax.send();
+        ajax.onreadystatechange = function () {
+            if(ajax.readyState == 4&& ajax.status == 200){
+                document.getElementById('div1').innerHTML = ajax.responseText;
+            }
+        }
+    }
+</script>
+

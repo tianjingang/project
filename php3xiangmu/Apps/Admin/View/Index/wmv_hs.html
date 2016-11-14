@@ -1,0 +1,31 @@
+<form action="__URL__/wmv_hs/" method="post" enctype="multipart/form-data">
+    <table border="1">
+        <tr>
+            <td>序号</td>
+            <td>影视名称</td>
+            <td>影视内容</td>
+            <td>热度指数</td>
+            <td>观看次数</td>
+            <td>是否推荐</td>
+            <td>片长时间</td>
+            <td>主演人</td>
+            <td>操作</td>
+        </tr>
+        <volist name="arr" id="val">
+            <tr>
+                <td>{$val.id}</td>
+                <td>{$val.w_name}</td>
+                <td><video src="__ROOT__{$val.w_wmv}" controls width="200" height="100"></video></td>
+                <td>{$val.w_row}</td>
+                <td>{$val.w_count}</td>
+                <td>{$val.w_controduct}</td>
+                <td>{$val.w_time}</td>
+                <td>{$val.w_man}</td>
+                <td>
+                    <a href="__URL__/wmv_hf/id/{$val.id}">恢复</a>
+                    <a href="__URL__/wmv_del/id/{$val.id}">永久删除</a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+</form>

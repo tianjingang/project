@@ -1,0 +1,25 @@
+<form>
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>图片1</td>
+            <td>图片2</td>
+            <td>图片3</td>
+            <td>图片4</td>
+            <td>操作</td>
+        </tr>
+        <volist name="arr" id="val">
+        <tr>
+            <td>{$val.id}</td>
+            <td><img src="__ROOT__{$val.photo1}" alt="" height="80" width="80"/></td>
+            <td><img src="__ROOT__{$val.photo2}" alt="" height="80" width="80"/></td>
+            <td><img src="__ROOT__{$val.photo3}" alt="" height="80" width="80"/></td>
+            <td><img src="__ROOT__{$val.photo4}" alt="" height="80" width="80"/></td>
+            <td><a href="__URL__/delete/id/{$val.id}">删除</a>
+                <a href="#">修改</a>
+            </td>
+        </tr>
+            </volist>
+    </table>
+</form>
+{$show}

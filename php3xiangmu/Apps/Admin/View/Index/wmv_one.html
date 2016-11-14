@@ -1,0 +1,18 @@
+<form action="__URL__/wmv_up" method="post" enctype="multipart/form-data">
+    <table border="1">
+        <tr>
+            <td>名字</td>
+            <td><input type="text" name="w_name" value="{$arr.w_name}"/></td>
+        </tr>
+        <tr>
+            <td>影视内容</td>
+            <td><input type="file" name="w_wmv"/>
+                <video src="__ROOT__{$arr.w_wmv}" controls autoplay width="200" height="100"></video>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="hidden" name="id" value="{$arr.id}"/></td>
+            <td><input type="submit" value="修改"></td>
+        </tr>
+    </table>
+</form>

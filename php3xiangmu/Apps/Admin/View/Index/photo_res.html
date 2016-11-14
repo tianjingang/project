@@ -1,0 +1,25 @@
+<center>
+<form action="__URL__/photo_res/" method="post" enctype="multipart/form-data">
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>类型</td>
+            <td>名字</td>
+            <td>电影封面</td>
+            <td>操作</td>
+        </tr>
+        <volist name="arr" id="val">
+        <tr>
+            <td>{$val.id}</td>
+            <td>{$val.v_type}</td>
+            <td>{$val.v_name}</td>
+            <td><img src="__ROOT__/{$val.photo}" width="80" height="80"/></td>
+            <td>
+                <a href="__URL__/photo_resh/id/{$val.id}">恢复</a>
+                <a href="__URL__/photo_delete/id/{$val.id}">永久删除</a>
+            </td>
+        </tr>
+            </volist>
+    </table>
+</form>
+</center>

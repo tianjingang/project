@@ -1,0 +1,22 @@
+<form action="__URL__/photo_up" method="post" enctype="multipart/form-data">
+    <table border="1">
+        <tr>
+            <td>类型</td>
+            <td><input type="text" name="v_type" value="{$arr.v_type}"/></td>
+        </tr>
+        <tr>
+            <td>名字</td>
+            <td><input type="text" name="v_name" value="{$arr.v_name}"/></td>
+        </tr>
+        <tr>
+            <td>封面</td>
+            <td><input type="file" name="photo"/>
+                <img src="__ROOT__{$arr.photo}" width="100"/>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="hidden" name="id" value="{$arr.id}"/></td>
+            <td><input type="submit" value="修改"></td>
+        </tr>
+    </table>
+</form>

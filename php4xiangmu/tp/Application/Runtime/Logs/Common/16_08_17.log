@@ -1,0 +1,24 @@
+[ 2016-08-17T14:08:09+08:00 ] 192.168.1.105 /php4xiangmu/tp/Public/Images/menu_top_line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T14:08:09+08:00 ] 192.168.1.105 /php4xiangmu/tp/Public/Images/menu_top_line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T14:08:23+08:00 ] 192.168.1.105 /php4xiangmu/tp/Public/Images/menu_top_line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T14:08:23+08:00 ] 192.168.1.105 /php4xiangmu/tp/Public/Images/menu_top_line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+ERR: 无法加载模块:Public
+

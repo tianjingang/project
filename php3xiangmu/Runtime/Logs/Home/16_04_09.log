@@ -1,0 +1,20 @@
+[ 2016-04-09T14:23:44+08:00 ] 127.0.0.1 /php3xiangmu/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011362s ]
+

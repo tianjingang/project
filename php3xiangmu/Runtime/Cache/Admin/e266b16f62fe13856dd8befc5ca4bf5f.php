@@ -1,0 +1,23 @@
+<?php if (!defined('THINK_PATH')) exit();?><form action="/php3xiangmu/index.php/Admin/Index/upload/" method="post" enctype="multipart/form-data">
+    <tr>
+        <td>电影名称</td>
+        <td><input type="text" name="v_name"/></td>
+    </tr>
+    <tr>
+        <td>电影类型</td>
+        <td><select name="v_type">
+            <option value="动作">动作</option>
+            <option value="战争">战争</option>
+            <option value="爱情">爱情</option>
+            <option value="红色">红色</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>电影封面</td>
+        <td><input type="file" name="photo"/></td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="电影分类添加"/></td>
+        <td></td>
+    </tr>
+</form>

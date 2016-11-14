@@ -1,0 +1,12 @@
+[ 2016-04-09T14:51:42+08:00 ] 127.0.0.1 /php4xiangmu/tp/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+ERR: 无法加载模块:Login
+
+[ 2016-04-09T14:52:41+08:00 ] 127.0.0.1 /php4xiangmu/tp/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载模块:Login
+
