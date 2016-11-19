@@ -1,0 +1,19 @@
+<table border="1">
+    <tr>
+        <td>ID</td>
+        <td>用户名</td>
+        <td>密码</td>
+        <td>操作</td>
+    </tr>
+   <?php foreach($list as $key=>$val){ ?>
+    <tr>
+        <td><?php echo $val['id'] ?></td>
+        <td><?php echo $val['u_name'] ?></td>
+        <td><?php echo $val['u_pwd'] ?></td>
+        <td>
+            <a href="<?php echo site_url('Index/del?id='.$val['id']) ?>">删除</a>
+            <a href="<?php echo site_url('Index/upd?id='.$val['id']) ?>">修改</a>
+        </td>
+    </tr>
+   <?php } ?>
+</table>
