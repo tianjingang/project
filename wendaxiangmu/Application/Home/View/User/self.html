@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后盾问答</title>
+    <meta name="keywords" content="问答 后盾问答 - 你问大家答">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/common.css">
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/top-bar.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/member.css">
+</head>
+<body>
+<include file="Public/nav" />
+<!--背景遮罩-->
+<!--------------------中部-------------------->
+<include file="Public/yonghu" />
+<php>
+    $id=session('id');
+    $res=D('hd_user')->where("id='$id'")->find();
+</php>
+    <div id="right">
+        <p class="title">我的首页</p>
+        <ul class="property">
+            <li>金币：<span>{$res.point}</span></li>
+            <li>经验值：<span>{$res.exp}</span></li>
+            <li>采纳率：<span>0%</span></li>
+        </ul>
+        <if condition="$res.ask eq 0">
+        <div class="list">
+            <p><span>我的提问 <b>0</b></span><a href="">更多&gt;&gt;</a></p>
+            <table>
+                <tbody>
+                <tr height="140">
+                    <td>你还没有进行过提问</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+            <else/>
+          <!--  两表联查,查询分类号-->
+            <php>
+                $id=session('id');
+                $arr=M('hd_ask')->where("uid='$id'")->select();
+            </php>
+                <div class="list">
+                    <p><span>我的提问 <b>{$res.ask}</b></span><a href="">更多&gt;&gt;</a></p>
+                       <table>
+                        <tbody>
+                        <tr>
+                            <td style="float: left">标题</td>
+                            <td style="float: right">时间发表</td>
+                        </tr>
+                        <volist name="arr" id="val">
+                        <tr>
+                            <td style="float: left">{$val.id}:{$val.content}<a href="">[{$val.uid}]</a></td>
+                            <td style="float: right">{$val.time}</td>
+                        </tr>
+                        </volist>
+                        </tbody>
+                    </table>
+                </div>
+        </if>
+
+        <if condition="$res.answer eq 0">
+        <div class="list">
+            <p><span>我的回答 <b>0</b></span><a href="">更多&gt;&gt;</a></p>
+            <table>
+                <tbody><tr height="140">
+                    <td>你还没有进行过回答</td>
+                </tr>
+                </tbody></table>
+        </div>
+            <else/>
+            <php>
+                $arr=M('ask')->select();
+            </php>
+            <div class="list">
+                <p><span>我的提问 <b>{$res.answer}</b></span><a href="">更多&gt;&gt;</a></p>
+                <table>
+                    <tbody>
+                    <h3>标题</h3><br>
+                    <volist name="arr" id="val">
+                        <span>{$val.id}:{$val.content}</span><br>
+                    </volist>
+                    </tbody>
+                </table>
+            </div>
+        </if>
+
+
+    </div>
+</div>
+<!--------------------中部结束-------------------->
+
+<!--------------------底部-------------------->
+<div id="bottom">
+    <p>Copyright © 2013 houdunwang.Com All Rights Reserved 后盾网</p>
+    <p>京ICP备10027771号-1</p>
+</div>
+<!--[if IE 6]>
+<script type="text/javascript" src="/wenda/Public/Js/iepng.js"></script>
+<script type="text/javascript">
+    DD_belatedPNG.fix('.logo','background');
+    DD_belatedPNG.fix('.nav-sel a','background');
+    DD_belatedPNG.fix('.ask-cate i','background');
+</script>
+<![endif]-->
+
+</body></html>

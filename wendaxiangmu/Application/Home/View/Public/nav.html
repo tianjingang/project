@@ -1,0 +1,143 @@
+<div class="" id="top-fixed">
+	<div id="top-bar">
+		<ul class="top-bar-left fl">
+			<li><a href="{:U('Category/category')}" target="_blank">后盾网</a></li>
+			<li><a href="http://bbs.houdunwang.com/" target="_blank">后盾论坛</a></li>
+			<li><a href="http://study.houdunwang.com/" target="_blank">后盾学习社区</a></li>
+		</ul>
+
+        <if condition="isset($_SESSION['user'])">
+            <ul class="top-bar-right fr">
+                <li>欢迎<span style="color:red">{$Think.session.user}</span>登录</li>
+                <li style="color:#eaeaf1">|</li>
+                <li><a href="{:U('Index/login_out')}">退出</a></li>
+            </ul>
+            <else/>
+            <ul class="top-bar-right fr">
+                <li><a href="" class="login">登录</a></li>
+                <li style="color:#eaeaf1">|</li>
+                <li><a href="" class="register">注册</a></li>
+            </ul>
+        </if>
+	</div>
+
+	<div id="search">
+		<div class="logo"></div>
+		<form action="" method="">
+			<input name="" class="sech-cons" type="text">
+			<input class="sech-btn" type="submit">
+		</form>
+        <a href="{:U('Ask/index')}" class="ask-btn"></a>
+	</div>
+</div>
+<div style="height:110px"></div>
+<!----------导航条---------->
+<div id="nav">
+	<ul class="list">
+        <php>
+            $arr= M('Category')->where("p_id=0")->select();
+        </php>
+		<li class="nav-sel"><a href="{:U('Index/index')}">问答首页</a></li>
+		<li class="nav-sel ask-cate">
+			<a href="{:U('Category/category')}" class="ask-list"><span>问题分类</span><i></i></a>
+			<ul class="hidden">
+                <volist name="arr" id="val">
+                    <li><a href="">{$val.c_name}</a></li>
+                </volist>
+            </ul>
+		</li>
+	</ul>
+	<p class="total">累计提问：10240000</p>
+</div>
+<script type="text/javascript" src="__PUBLIC__/Home/js/validate.js"></script> 
+	<script type="text/javascript">
+		var CONTROL = "/wendaxiangmu/index.php/Home/Common/";
+		/*var check_verify = "__URL__/check_verify";*/ 
+	</script>
+	
+	<!----------注册框---------->
+	<div id="register" class="hidden">
+		<div class="reg-title">
+			<p>欢迎注册后盾问答</p>
+			<a href="" title="关闭" class="close-window"></a>
+		</div>
+		<div id="reg-wrap">
+			<div class="reg-left">
+				<ul>
+					<li><span>账号注册</span></li>
+				</ul>
+				<div class="reg-l-bottom">
+					已有账号，<a href="" id="login-now">马上登录</a>
+				</div>
+			</div>
+			<div class="reg-right">
+				<form action="{:U('Common/register_do')}" method="post" name="register">
+					<ul>
+						<li>
+							<label for="reg-account">账号</label>
+							<input name="account" id="reg-account" type="text">
+							<span>7-20个字符：以字母开头的字母、数字或下划线 _</span>
+						</li>
+						<li>
+							<label for="reg-uname">用户名</label>
+							<input name="username" id="reg-uname" type="text">
+							<span>2-14个字符：字母、数字或中文</span>
+						</li>
+						<li>
+							<label for="reg-pwd">密码</label>
+							<input name="pwd" id="reg-pwd" type="password">
+							<span>6-20个字符:字母、数字或下划线 _</span>
+						</li>
+						<li>
+							<label for="reg-pwded">确认密码</label>
+							<input name="pwded" id="reg-pwded" type="password">
+							<span>请再次输入密码</span>
+						</li>
+						<li>
+							<label for="reg-verify">验证码</label>
+							<input name="verify" id="reg-verify" type="text">
+							<img src="{:U('Common/verify')}" alt="验证码" id="verify-img" height="35" width="99">
+							<!-- <a href="javascript:void(0);" id="verify-img" style="float:right">看不清 --></a>
+							<span>请输入图中的字母或数字，不区分大小写</span>
+						</li>
+						<li class="submit">
+							<input value="立即注册" type="submit">
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!----------登录框---------->	
+	<div id="login" class="hidden">
+		<div class="login-title">
+			<p>欢迎您登录后盾网</p>
+			<a href="" title="关闭" class="close-window"></a>
+		</div>
+		<div class="login-form">
+			<span id="login-msg"></span>
+			<form action="{:U('Common/checkLogin')}" method="post" name="login">
+				<ul>
+					<li>
+						<label for="login-acc">账号</label>
+						<input name="account" class="input" id="login-acc" type="text">
+					</li>
+					<li>
+						<label for="login-pwd">密码</label>
+						<input name="pwd" class="input" id="login-pwd" type="password">
+					</li>
+					<li class="login-auto">
+						<label for="auto-login">
+							<input checked="checked" name="auto" id="auto-login" type="checkbox">&nbsp;下一次自动登录
+						</label>
+						<a href="" id="regis-now">注册新账号</a>
+					</li>
+					<li>
+						<input value="" id="login-btn" type="submit">
+					</li>
+				</ul>
+			</form>
+		</div>
+	</div>
+<!--背景遮罩--><div id="background" class="hidden"></div>

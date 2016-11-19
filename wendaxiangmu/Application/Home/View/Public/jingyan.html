@@ -1,0 +1,49 @@
+<if condition="!isset($_SESSION['u_name'])">
+    <div id="right">
+        <div class="r-login">
+
+			<span class="login"><i></i>
+			&nbsp;登录
+			</span>
+            <span class="register"><i></i>&nbsp;注册</span>
+        </div>
+        <else />
+        <php>
+            $id=session('id');
+            $res=D('user')->where("id='$id'")->find();
+        </php>
+        <div id='right'>
+            <div class='userinfo'>
+                <dl>
+                    <dt>
+                        <a href="{:U('Self/self')}">
+                            <img src="__PUBLIC__/Home/Images/noface.gif" width='48' height='48'/></a>
+                    </dt>
+                    <dd class='username'>
+                        <a href="{:U('Self/self')}"><b>{$Think.session.u_name}</b>
+                            <i class="level lv{$res.suffer}" title='Level {$res.suffer}'></i>
+                        </a>
+                    </dd>
+                    <dd>金币：<a href="{:U('Self/gold')}" style="color: #888888;"><b class='point'>
+                        {$res.gold}
+                    </b></a></dd>
+                    <dd>经验值：{$res.exp}</dd>
+                </dl>
+                <table>
+                    <tr>
+                        <td>回答数</td>
+                        <td>采纳率</td>
+                        <td class='last'>提问数</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">{$res.answer}</a></td>
+                        <td><a href="">0%</a></td>
+                        <td class='last'><a href="">{$res.ask}</a></td>
+                    </tr>
+                </table>
+                <ul>
+                    <li><a href="{:U('Self/quiz')}">我提问的</a></li>
+                    <li><a href="{:U('Self/answer')}">我回答的</a></li>
+                </ul>
+            </div>
+</if>

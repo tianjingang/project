@@ -1,0 +1,404 @@
+[ 2016-03-19T08:43:35+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-03-19T08:43:35+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-03-19T08:44:13+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-03-19T08:44:13+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-03-19T08:44:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-03-19T08:44:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-03-19T08:44:27+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify/0.37899481365332033
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-03-19T08:44:28+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify/0.7047512734966619
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-03-19T08:44:29+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify/0.6052320589651004
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-03-19T08:44:53+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0195s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `login` WHERE ( username='田金刚' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-03-19T08:44:53+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify/0.7786576638338047
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-03-19T08:45:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify/0.5596162119651922
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-03-19T08:45:30+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-18 09:53:11',`login_time`='2016-03-19 08:45:30',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-03-19T08:45:30+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-03-19T08:45:30+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-03-19T08:45:32+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-03-19T08:45:39+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-03-19T08:45:42+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-03-19T08:45:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-03-19T08:45:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-03-19T08:45:58+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-03-19T08:45:59+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-03-19T10:43:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-03-19T10:43:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-03-19T10:43:16+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify/0.4593950677728178
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-03-19T10:43:28+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-19 08:45:30',`login_time`='2016-03-19 10:43:28',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-03-19T10:43:28+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-03-19T10:43:28+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-03-19T15:22:01+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-03-19T15:37:17+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-03-19T15:37:17+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-03-19T15:37:24+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify/0.25845016118016706
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-03-19T15:37:26+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify/0.04210649000168076
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-03-19T15:37:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-19 10:43:28',`login_time`='2016-03-19 15:37:35',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-03-19T15:37:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-03-19T15:37:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-03-19T15:50:38+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-03-19T15:50:39+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-03-19T15:50:41+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+
+[ 2016-03-19T15:50:41+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-03-19T15:50:43+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-03-19T15:50:43+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-03-19T16:36:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-03-19T16:36:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-03-19T16:36:50+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-03-19T16:36:50+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-03-19T16:36:51+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-03-19T16:36:51+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-03-19T16:36:51+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-03-19T16:36:51+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-03-19T16:38:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-03-19T16:38:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-03-19T16:38:13+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Reword/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 非法操作:index
+
+[ 2016-03-19T16:38:59+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-03-19T16:38:59+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-03-19T16:39:01+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Reword/reword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-03-19T16:47:21+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-03-19T16:47:21+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-03-19T16:47:21+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-03-19T16:47:22+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-03-19T16:47:23+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Reword/reword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-03-19T16:48:17+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-03-19T16:48:17+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-03-19T16:48:18+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-03-19T16:48:18+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-03-19T16:48:20+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Reword/reword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-03-19T16:48:43+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-03-19T16:48:43+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-03-19T16:48:45+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Reword/reword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-03-19T20:39:41+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-03-19T20:39:41+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-03-19T20:39:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Reword/reword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+

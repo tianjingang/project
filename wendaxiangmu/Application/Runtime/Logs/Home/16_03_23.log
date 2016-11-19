@@ -1,0 +1,52 @@
+[ 2016-03-23T10:10:47+08:00 ] 127.0.0.1 /wendaxiangmu/index.php
+ERR: 网站维护中
+
+[ 2016-03-23T11:33:47+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Index/index.html
+ERR: 网站修复BUG中，小B等会哦..............
+
+[ 2016-03-23T11:34:30+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/
+ERR: 网站修复BUG中，小B等会哦..............
+
+[ 2016-03-23T11:35:17+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/
+ERR: 网站修复BUG中，小B等会哦..............
+
+[ 2016-03-23T11:35:18+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/
+ERR: 网站修复BUG中，小B等会哦..............
+
+[ 2016-03-23T11:36:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/
+ERR: 网站修复BUG中，小B等会哦..............
+
+[ 2016-03-23T11:38:01+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/
+ERR: 1146:Table 'php4.hd_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hd_category`
+
+[ 2016-03-23T11:40:05+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/
+ERR: 1146:Table 'php4.hd_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hd_category`
+
+[ 2016-03-23T11:40:07+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/
+ERR: 1146:Table 'php4.hd_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hd_category`
+
+[ 2016-03-23T11:43:01+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/
+ERR: 网站修复BUG中，小B等会哦..............
+
+[ 2016-03-23T11:43:58+08:00 ] 127.0.0.1 /wendaxiangmu/index.php
+ERR: 1146:Table 'php4.hd_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hd_category`
+
+[ 2016-03-23T11:45:04+08:00 ] 127.0.0.1 /wendaxiangmu/index.php
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+
+[ 2016-03-23T16:09:25+08:00 ] 127.0.0.1 /wendaxiangmu/index.php
+ERR: <a href="#">网站维护吗</a>
+
+[ 2016-03-23T20:59:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Login_add/add.html
+ERR: 无法加载控制器:Login_add
+
+[ 2016-03-23T21:28:22+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Category/category.html
+ERR: 无法加载控制器:Category
+
+[ 2016-03-23T21:28:40+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Category/category.html
+ERR: 无法加载控制器:Category
+

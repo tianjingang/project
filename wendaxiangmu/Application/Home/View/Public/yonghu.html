@@ -1,0 +1,53 @@
+<php>
+    $id=session('id');
+    $res=D('hd_user')->where("id='$id'")->find();
+</php>
+    <div id="center">
+        <div id="left">
+            <div class="userinfo">
+                <dl>
+                    <dt>
+                        <a href=""><img src="__PUBLIC__/Home/Images/noface.gif" height="48" width="48"></a>
+                    </dt>
+                    <dd class='username'>
+                        <a href="{:U('User/self')}"><b>{$Think.session.user}</b>
+                            <i class="level lv{$res.suffer}" title='Level {$res.adopt}'></i>
+                        </a>
+                    </dd>
+                    <dd>金币：<a href="{:U('User/gold')}" style="color: #888888;"><b class='point'>
+                        {$res.point}
+                    </b></a></dd>
+                    <dd>经验值：{$res.exp}</dd>
+                </dl>
+                <table>
+                    <tbody><tr>
+                        <td>回答数</td>
+                        <td>采纳率</td>
+                        <td class="last">提问数</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">{$res.answer}</a></td>
+                        <td><a href="">0%</a></td>
+                        <td class="last"><a href="">{$res.ask}</a></td>
+                    </tr>
+                    </tbody></table>
+            </div>
+            <ul>
+                <li class="myhome cur">
+                    <a href="{:U('User/self')}">我的首页</a>
+                </li>
+                <li class="myask ">
+                    <a href="{:U('User/quiz')}">我的提问</a>
+                </li>
+                <li class="myanswer ">
+                    <a href="{:U('User/answer')}">我的回答</a>
+                </li>
+                <li class="mylevel ">
+                    <a href="{:U('User/suffer')}">我的等级</a>
+                </li>
+                <li class="mypoint ">
+                    <a href="{:U('User/gold')}">我的金币</a>
+                </li>
+                <li style="background:none"></li>
+            </ul>
+        </div>

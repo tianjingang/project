@@ -1,0 +1,36 @@
+ <if condition="!isset($_SESSION['uid']) OR !isset($_SESSION['account'])">
+    <div class="r-login">
+			<span class="login"><i></i>&nbsp;登录</span>
+			<span class="register"><i></i>&nbsp;注册</span>
+		</div>
+
+ <else /> 
+			   <div class="userinfo">
+			<dl>
+				<dt>
+					<a href="{:U('Member/index1',array('id'=>$_SESSION['uid']))}"><img src="__PUBLIC__/Home/images/noface.gif" height="48" width="48"></a>
+				</dt>
+				<dd class="username">
+					<a href="{:U('Member/index1',array('id'=>$_SESSION['uid']))}"><b>{$Think.session.user}</b><i class="level lv1" title="Level 1"></i></a>
+				</dd>
+				<dd>金币：<a href="" style="color: #888888;"><b class="point">{$arr.point}</b></a></dd>
+				<dd>经验值：<a href="">{$arr.exp}</a></dd>
+			</dl>
+			<table>
+				<tbody><tr>
+					<td>回答数</td>
+					<td>采纳率</td>
+					<td class="last">提问数</td>
+				</tr>
+				<tr>
+					<td><a href="">{$arr.answer}</a></td>
+					<td><a href="">({$arr.adopt}/{$arr.answer})%</a></td>
+					<td class="last"><a href="">{$arr.ask}</a></td>
+				</tr>
+			</tbody></table>
+			<ul>
+				<li><a href="">我提问的</a></li>
+				<li><a href="">我回答的</a></li>
+			</ul>
+		</div>
+  </if>

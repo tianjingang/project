@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script type="text/javascript" src="__PUBLIC__/Admin/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/index.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/public.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/index.css">
+    <center>
+        <h1 style="color:#ff0000">待解决问题</h1>
+        <table border="1">
+                <tr>
+                    <td>ID</td>
+                    <td>内容</td>
+                    <td>类型</td>
+                </tr>
+                <volist name="ar" id="val">
+                    <tr>
+                        <td>{$val.id}</td>
+                       <td>{$val.content}</td>
+                        <td>{$val.uid}</td>
+                    </tr>
+                </volist>
+            </table>
+    </center>

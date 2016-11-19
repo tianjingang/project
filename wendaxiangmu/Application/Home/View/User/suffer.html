@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后盾问答</title>
+    <meta name="keywords" content="问答 后盾问答 - 你问大家答">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="__PUBLIC__/Home/Css/common.css">
+    <script type="text/javascript" src="__PUBLIC__/Home/Js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/Js/top-bar.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/Home/Css/member.css">
+    <script type="text/javascript" src="__PUBLIC__/Home/Js/member.js"></script>
+</head>
+<body>
+<include file="Public/nav" />
+<!--背景遮罩-->
+
+<include file="Public/yonghu" />
+
+<php>
+    $id=session('id');
+    $res=D('hd_user')->where("id='$id'")->find();
+    $arr=array(C('LV1'),C('LV2'),C('LV3'),C('LV4'),C('LV5'),C('LV6'),C('LV7'),C('LV8'),C('LV9'),C('LV10'),
+    C('LV11'),C('LV12'),C('LV13'),C('LV14'),C('LV15'),C('LV16'),C('LV17'),C('LV18'),C('LV19'),C('LV20'),);
+</php>
+    <div id="right">
+        <p class="title">TA的等级</p>
+        <p class="lv-info">恭喜您，已经升到 <span>{$res.suffer}</span> 级啦，距下一级还需
+            <span>6</span> 经验值!</p>
+        <div class="lv-rule">
+            <p><span>等级规则</span></p>
+            <table class="lv-exp">
+                <tbody><tr>
+                    <th>等级</th>
+                    <th>经验值</th>
+                </tr>
+               <php> foreach($arr as $k=>$v){</php>
+                <tr class="cur">
+                    <td> <span><php>echo $k+1;</php></span></td>
+                    <td> <span><php>echo $v;</php></span></td>
+              </tr><php>  }
+               </php>
+                </tbody></table>
+        </div>
+        <div class="lv-rule">
+            <p><span>经验获取</span></p>
+            <table class="lv-exp">
+                <tbody><tr>
+                    <th>操作</th>
+                    <th>获得经验值</th>
+                </tr>
+                <tr>
+                    <td>每天登录</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>提问</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>回答</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>采纳答案</td>
+                    <td>5</td>
+                </tr>
+                </tbody></table>
+        </div>
+    </div>
+</div>
+<!--------------------中部结束-------------------->
+<div id="bottom">
+    <p>Copyright © 2013 houdunwang.Com All Rights Reserved 后盾网</p>
+    <p>京ICP备10027771号-1</p>
+</div>
+<!--[if IE 6]>
+<script type="text/javascript" src="/wenda/Public/Js/iepng.js"></script>
+<script type="text/javascript">
+    DD_belatedPNG.fix('.logo','background');
+    DD_belatedPNG.fix('.nav-sel a','background');
+    DD_belatedPNG.fix('.ask-cate i','background');
+</script>
+<![endif]-->
+
+</body></html>

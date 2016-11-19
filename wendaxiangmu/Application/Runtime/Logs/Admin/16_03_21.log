@@ -1,0 +1,63 @@
+[ 2016-03-21T10:57:05+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-20 09:05:33',`login_time`='2016-03-21 10:57:05',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-03-21T13:46:30+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-21 10:57:05',`login_time`='2016-03-21 13:46:29',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-03-21T20:51:34+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-21 13:46:29',`login_time`='2016-03-21 20:51:34',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-03-21T23:14:41+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/User/sel_user.html
+ERR: 非法操作:sel_user
+
+[ 2016-03-21T23:15:44+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/User/sel_user.html
+ERR: 非法操作:sel_user
+
+[ 2016-03-21T23:18:07+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/User/sel_user.html
+ERR: 非法操作:sel_user
+
+[ 2016-03-21T23:32:16+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/%7BU:(%27User/show1%27)%7D
+ERR: 非法操作:{U:('User
+
+[ 2016-03-21T23:33:29+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/%7BU:(%27User/show1%27)%7D
+ERR: 非法操作:{U:('User
+
+[ 2016-03-21T23:38:20+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/%7BU:(%27User/show1%27)%7D
+ERR: 非法操作:{U:('User
+
+[ 2016-03-21T23:42:29+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/%7BU:(%27User/show1%27)%7D
+ERR: 非法操作:{U:('User
+
+[ 2016-03-21T23:43:24+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/%7BU:(%27User/show1%27)%7D
+ERR: 非法操作:{U:('User
+

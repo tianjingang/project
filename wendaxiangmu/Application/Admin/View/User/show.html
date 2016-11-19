@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script type="text/javascript" src="__PUBLIC__/Admin/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/js/index.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/public.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/index.css">
+<center>
+<form action="__URL__/show/" method="post">
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>账号</td>
+            <td>用户名</td>
+            <td>密码</td>
+            <td>回答数</td>
+            <td>采纳数</td>
+            <td>提问数</td>
+            <td>金币</td>
+            <td>经验值</td>
+            <td>最后登录时间</td>
+            <td>最后登录IP</td>
+            <td>注册时间</td>
+            <td>账号状态</td>
+        </tr>
+        <volist name="arr" id="val">
+        <tr>
+            <td>{$val.id}</td>
+            <td>{$val.number}</td>
+            <td>{$val.user}</td>
+            <td>{$val.pwd1}</td>
+            <td>{$val.answer}</td>
+            <td>{$val.require}</td>
+            <td>{$val.ask}</td>
+            <td>{$val.gold}</td>
+            <td>{$val.rich}</td>
+            <td>{$val.logintime}</td>
+            <td>{$val.loginip}</td>
+            <td>{$val.registertime}</td>
+            <td><a href="__URL__/up1/id/{$val.id}">锁定</a></td>
+        </tr>
+        </volist>
+    </table>
+</form>
+</center>

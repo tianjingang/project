@@ -1,0 +1,1829 @@
+[ 2016-03-18T09:50:13+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-03-18T09:50:13+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-03-18T09:50:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-03-18T09:50:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-03-18T09:50:15+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-03-18T09:50:15+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-03-18T09:50:17+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-03-18T09:50:22+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-03-18T09:52:52+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-03-18T09:52:52+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-03-18T09:53:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-17 20:48:38',`login_time`='2016-03-18 09:53:11',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-03-18T09:53:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-03-18T09:53:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-03-18T09:54:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-03-18T09:54:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-03-18T09:54:06+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addTop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-03-18T09:54:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-03-18T09:54:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addTop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-03-18T09:54:22+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-03-18T09:54:23+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addTop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+
+[ 2016-03-18T09:54:39+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-03-18T09:55:01+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addTop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-03-18T09:55:18+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-03-18T09:55:19+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addTop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-03-18T09:55:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-03-18T09:56:43+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addTop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-03-18T09:56:44+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-03-18T10:00:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-03-18T10:00:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-03-18T10:01:00+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-03-18T10:01:00+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-03-18T10:01:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-03-18T10:01:05+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-03-18T10:02:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-03-18T10:02:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-03-18T10:02:18+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-03-18T10:02:22+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-03-18T10:04:39+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-03-18T10:05:17+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-03-18T10:05:17+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-03-18T10:05:19+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-03-18T10:05:20+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-03-18T10:05:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-03-18T10:05:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-03-18T10:05:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-03-18T10:05:58+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-03-18T10:11:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-03-18T10:11:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-03-18T10:11:53+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-03-18T10:11:53+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-03-18T10:11:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-03-18T10:11:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-03-18T10:13:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-03-18T10:13:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-03-18T10:13:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-03-18T10:13:59+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-03-18T10:16:13+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-03-18T10:16:13+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-03-18T10:16:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-03-18T10:16:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-03-18T10:16:23+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-03-18T10:16:31+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-03-18T10:16:43+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-03-18T10:16:44+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-03-18T10:16:47+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2016-03-18T10:21:12+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-03-18T10:21:23+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-03-18T10:21:24+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-03-18T10:21:29+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-03-18T10:46:44+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-03-18T10:46:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-03-18T10:46:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-03-18T10:46:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-03-18T10:48:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-03-18T10:48:24+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2016-03-18T10:48:25+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-03-18T10:48:35+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-03-18T10:48:52+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-03-18T10:49:07+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-03-18T10:49:08+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-03-18T10:49:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-03-18T10:49:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-03-18T10:49:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-03-18T10:49:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-03-18T10:50:25+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-03-18T10:50:26+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-03-18T10:50:27+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-03-18T10:53:53+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-03-18T10:54:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+
+[ 2016-03-18T10:54:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-03-18T10:54:04+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-03-18T10:54:04+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-03-18T10:54:28+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-03-18T10:54:28+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-03-18T10:54:30+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-03-18T10:54:59+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-03-18T10:55:08+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-03-18T10:55:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-03-18T10:55:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-03-18T10:56:53+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2016-03-18T10:58:19+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-03-18T10:58:23+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-03-18T11:00:20+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+
+[ 2016-03-18T11:01:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-03-18T11:01:06+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-03-18T11:02:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-03-18T11:02:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-03-18T11:02:58+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-03-18T11:02:58+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-03-18T11:03:00+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-03-18T11:03:05+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-03-18T11:03:13+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-03-18T11:03:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-03-18T11:03:16+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-03-18T11:05:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-03-18T11:05:04+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-03-18T11:08:04+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-03-18T11:08:04+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-03-18T11:08:07+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-03-18T11:08:12+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-03-18T11:08:24+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-03-18T11:08:25+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-03-18T11:08:26+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-03-18T11:09:51+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-03-18T11:09:51+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-03-18T11:09:52+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-03-18T11:10:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-03-18T11:10:22+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-03-18T11:10:23+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-03-18T11:10:25+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-03-18T11:10:29+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-03-18T11:10:29+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-03-18T11:10:30+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-03-18T11:10:34+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-03-18T11:10:45+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-03-18T11:10:46+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-03-18T11:10:47+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-03-18T11:10:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-03-18T11:10:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-03-18T13:33:16+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-03-18T13:33:22+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-03-18T13:35:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-03-18T13:35:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-03-18T13:50:40+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-03-18T13:50:40+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-03-18T13:50:42+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-03-18T13:50:42+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-03-18T13:50:45+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-03-18T14:04:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-03-18T14:04:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-03-18T14:04:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-03-18T14:04:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-03-18T14:04:13+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-03-18T14:04:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-03-18T14:04:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-03-18T14:04:37+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-03-18T14:05:12+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-03-18T14:05:13+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-03-18T14:05:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-03-18T14:05:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-03-18T14:05:16+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-03-18T14:05:53+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-03-18T14:05:53+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-03-18T14:05:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-03-18T14:05:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-03-18T14:05:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-03-18T14:06:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-03-18T14:06:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-03-18T14:06:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-03-18T14:06:34+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-03-18T14:06:34+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-03-18T14:08:51+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-03-18T14:10:05+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-03-18T14:10:05+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-03-18T14:10:07+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-03-18T14:14:29+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-03-18T14:14:29+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-03-18T14:14:31+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-03-18T14:15:08+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-03-18T14:15:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-03-18T14:15:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-03-18T14:15:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-03-18T14:15:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-03-18T14:15:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-03-18T14:15:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-03-18T14:15:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-03-18T14:15:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-03-18T14:15:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-03-18T14:15:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-03-18T14:15:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-03-18T14:15:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-03-18T14:15:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-03-18T14:16:05+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-03-18T14:16:05+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-03-18T14:16:24+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-03-18T14:17:01+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-03-18T14:17:37+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-03-18T14:17:38+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-03-18T14:18:22+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-03-18T14:18:22+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-03-18T14:18:23+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-03-18T14:18:23+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-03-18T14:18:23+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2016-03-18T14:18:23+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-03-18T14:18:24+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-03-18T14:18:24+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-03-18T14:18:25+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-03-18T14:18:25+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-03-18T14:18:26+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-03-18T14:18:26+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-03-18T14:18:26+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-03-18T14:18:26+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-03-18T14:18:35+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-03-18T14:18:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-03-18T14:20:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addTop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-03-18T14:20:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-03-18T14:20:04+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-03-18T14:20:06+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-03-18T14:20:26+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-03-18T14:20:30+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-03-18T14:20:31+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-03-18T14:20:32+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-03-18T14:20:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/del/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-03-18T14:20:37+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-03-18T14:22:37+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-03-18T14:23:34+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-03-18T14:23:34+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-03-18T14:23:34+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-03-18T14:23:34+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-03-18T14:23:35+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-03-18T14:23:35+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-03-18T14:23:35+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-03-18T14:23:35+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-03-18T14:23:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-03-18T14:23:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-03-18T14:23:38+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-03-18T14:24:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-03-18T14:24:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-03-18T14:24:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-03-18T14:24:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-03-18T14:24:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-03-18T14:24:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-03-18T14:24:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-03-18T14:24:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-03-18T14:24:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-03-18T14:24:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-03-18T14:24:58+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-03-18T14:24:59+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-03-18T14:24:59+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-03-18T14:25:00+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-03-18T14:25:47+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-03-18T14:25:47+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-03-18T14:25:48+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-03-18T14:25:48+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2016-03-18T14:25:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-03-18T14:25:50+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-03-18T14:25:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-03-18T14:25:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-03-18T14:25:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+
+[ 2016-03-18T14:25:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-03-18T14:25:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-03-18T14:26:44+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-03-18T14:26:44+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-03-18T14:26:44+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-03-18T14:26:44+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-03-18T14:26:46+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-03-18T14:27:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-03-18T14:27:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-03-18T14:27:50+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-03-18T14:28:06+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-03-18T14:28:53+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-03-18T14:28:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-03-18T14:28:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-03-18T14:39:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-03-18T14:39:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-03-18T14:39:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-03-18T14:39:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-03-18T14:39:04+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-03-18T14:39:04+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-03-18T14:39:06+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-03-18T14:39:06+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-03-18T14:39:08+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-03-18T14:39:08+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-03-18T14:39:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-03-18T14:39:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2016-03-18T14:39:16+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-03-18T14:40:12+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-03-18T14:40:30+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-03-18T14:40:31+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-03-18T14:40:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-03-18T14:41:29+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-03-18T14:41:29+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-03-18T14:41:31+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-03-18T14:53:33+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-03-18T14:53:33+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-03-18T14:53:34+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2016-03-18T14:53:34+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-03-18T14:53:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-03-18T14:54:12+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/up1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 非法操作:up1
+
+[ 2016-03-18T14:54:43+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-03-18T14:54:43+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-03-18T14:54:44+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-03-18T14:54:44+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-03-18T14:54:45+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-03-18T14:54:45+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-03-18T14:54:47+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-03-18T14:54:50+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/up1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 非法操作:up1
+
+[ 2016-03-18T14:55:06+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-03-18T14:55:08+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/up1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 非法操作:up1
+
+[ 2016-03-18T14:55:45+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-03-18T14:55:45+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-03-18T14:55:46+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-03-18T14:55:47+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-03-18T14:55:47+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-03-18T14:55:47+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-03-18T14:55:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-03-18T14:55:52+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-03-18T14:56:47+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-03-18T14:56:48+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-03-18T14:56:48+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-03-18T14:56:48+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-03-18T14:56:50+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2016-03-18T14:56:52+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-03-18T14:57:30+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-03-18T14:57:30+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-03-18T14:57:31+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-03-18T14:57:31+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-03-18T14:57:35+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-03-18T14:57:37+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-03-18T15:06:07+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-03-18T15:06:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-03-18T15:07:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-03-18T15:07:11+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-03-18T15:07:12+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-03-18T15:07:15+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-03-18T15:12:12+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-03-18T15:12:14+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-03-18T15:12:18+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-03-18T15:12:19+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-03-18T15:12:19+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-03-18T15:12:20+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-03-18T15:12:21+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-03-18T15:14:34+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-03-18T15:14:35+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-03-18T15:14:38+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-03-18T15:14:39+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-03-18T15:14:46+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-03-18T15:14:52+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-03-18T15:14:53+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-03-18T16:06:33+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/cate/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-03-18T16:06:44+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-03-18T16:06:45+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-03-18T16:42:07+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-03-18T16:44:05+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-03-18T16:44:27+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-03-18T16:44:28+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-03-18T16:44:33+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-03-18T16:44:40+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-03-18T16:44:52+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addsun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-03-18T16:44:53+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/addson/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-03-18T16:44:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-03-18T16:45:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/del/id/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-03-18T16:45:04+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Category/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+

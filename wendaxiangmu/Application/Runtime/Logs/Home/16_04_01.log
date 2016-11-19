@@ -1,0 +1,89 @@
+[ 2016-04-01T10:49:45+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Index/question
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `hd_ask` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `hd_ask` WHERE ( solve=0 ) LIMIT 5,5   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-04-01T10:49:49+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Index/question
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `hd_ask` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `hd_ask` WHERE ( solve=0 ) LIMIT 5,5   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-04-01T10:50:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:50:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:50:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:50:58+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:50:58+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:50:59+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:50:59+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:51:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:51:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:51:02+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:51:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:51:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:51:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:51:07+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:51:07+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:54:00+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:54:00+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:54:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:54:03+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:54:05+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:54:08+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:54:08+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+
+[ 2016-04-01T10:54:09+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Home/Common/verify.html
+ERR: 非法操作:verify
+

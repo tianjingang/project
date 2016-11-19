@@ -1,0 +1,181 @@
+[ 2016-03-29T15:14:20+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `login` WHERE ( username='田金刚' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-03-29T15:14:43+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-27 14:27:02',`login_time`='2016-03-29 15:14:43',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-03-29T15:16:52+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-29 15:14:43',`login_time`='2016-03-29 15:16:52',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-03-29T20:51:10+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-29 15:16:52',`login_time`='2016-03-29 20:51:10',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-03-29T21:09:31+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:09:37+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:09:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-29 20:51:10',`login_time`='2016-03-29 21:09:56',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002405s ]
+
+[ 2016-03-29T21:09:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:52+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:54+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:55+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:57+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:58+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:58+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:13:59+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:14:00+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:14:00+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:14:01+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:14:01+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:14:21+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-29 21:09:56',`login_time`='2016-03-29 21:14:21',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2016-03-29T21:14:21+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:15:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:15:36+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:15:37+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:15:37+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:15:38+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:15:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-29 21:14:21',`login_time`='2016-03-29 21:15:56',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-03-29T21:15:56+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Index/index
+ERR: 网站维护中
+
+[ 2016-03-29T21:28:26+08:00 ] 127.0.0.1 /wendaxiangmu/index.php/Admin/Login/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [2048] Declaration of Admin\Model\LoginModel::find() should be compatible with that of Think\Model::find() D:\web\apache\htdocs\wendaxiangmu\Application\Admin\Model\LoginModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `login` WHERE ( username='张三' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `login` SET `last_time`='2016-03-29 21:15:56',`login_time`='2016-03-29 21:28:26',`last_ip`='127.0.0.1',`login_ip`='127.0.0.1' WHERE ( username='张三' ) [ RunTime:0.0353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
