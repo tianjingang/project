@@ -1,0 +1,217 @@
+[ 2016-02-24T18:47:13+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-02-24T18:48:13+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-02-24T18:49:14+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+ERR: 模板不存在:./Apps/Home/View/Index/index.html
+
+[ 2016-02-24T18:50:01+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+ERR: 模板不存在:./Apps/Home/View/Index/index.html
+
+[ 2016-02-24T18:50:05+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 模板不存在:./Apps/Home/View/Index/index.html
+
+[ 2016-02-24T18:50:19+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+ERR: 模板不存在:./Apps/Home/View/Index/index.html
+
+[ 2016-02-24T18:50:30+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+ERR: 模板不存在:./Apps/Home/View/Index/index.html
+
+[ 2016-02-24T18:51:52+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-02-24T18:53:58+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2016-02-24T18:55:08+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-02-24T18:55:10+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/add/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-02-24T19:00:39+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/add/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-02-24T19:01:30+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/add/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-02-24T19:01:36+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/add/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+
+[ 2016-02-24T19:01:37+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 非法操作:show
+
+[ 2016-02-24T19:03:17+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+ERR: Think\Model:look方法不存在！
+
+[ 2016-02-24T19:04:21+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-02-24T19:07:51+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-02-24T19:08:08+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+
+[ 2016-02-24T19:29:00+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-02-24T19:29:04+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/add/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-02-24T19:29:05+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2016-02-24T19:29:07+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+
+[ 2016-02-24T19:35:50+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-02-24T19:36:21+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-02-24T19:36:25+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show_one/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2016-02-24T19:36:28+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show_one/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2016-02-24T19:36:50+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+
+[ 2016-02-24T19:36:51+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show_one/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2016-02-24T19:36:54+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show_one/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-02-24T19:39:25+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-02-24T19:39:27+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show_one/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+
+[ 2016-02-24T19:39:33+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show_one/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-02-24T19:39:42+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/update/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-02-24T19:43:07+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show_one/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-02-24T19:43:14+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/update/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+
+[ 2016-02-24T19:43:15+08:00 ] 127.0.0.1 /sanyue/ThinkPHP/index.php/Home/Index/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+

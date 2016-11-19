@@ -1,0 +1,5 @@
+[ 2016-04-21T13:20:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/images/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+

@@ -1,0 +1,18 @@
+[ 2016-10-19T09:43:58+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shop'
+
+[ 2016-10-19T09:47:03+08:00 ] ::1 /shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shop'
+
